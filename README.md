@@ -15,7 +15,7 @@ Sistema de análise de crédito desenvolvido para consolidar conceitos de lógic
 
 ## 📫 Contacto:
 - LinkedIn: https://www.linkedin.com/in/kelwinfeitosa
-- E-mail: (kelwinfeitosa@gmail.com
+- E-mail: kelwinfeitosa@gmail.com
 
   <div style="display: inline_block">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40" alt="Java" />
