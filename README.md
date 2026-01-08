@@ -2,12 +2,10 @@
 
 Sou um desenvolvedor em formação, focado no ecossistema **Java**. O meu objetivo atual é construir uma base sólida em arquitetura de software, persistência de dados e as melhores práticas de POO.
 
-## 🛠️ Stack Técnica & Ferramentas
+## 🛠️ Stack Técnica
 - **Linguagem:** Java (JDK 21)
-- **Base de Dados:** Aprendendo PostgreSQL (Atualmente a transitar de memória volátil para JDBC)
-- **Arquitetura:** Organização em camadas (App, Model, Service, Exception, Util, Test)
-- **Ambiente:** Linux Mint & IntelliJ IDEA
-- **Controlo de Versão:** Git (Padronização com Conventional Commits)
+- **Banco de Dados:** PostgreSQL (JDBC)
+- **SO:** Linux Mint | **IDE:** IntelliJ IDEA
 
 ## 🏦 Projeto em Destaque
 ### [Simulador de Empréstimo Bancário](LINK_DO_SEU_REPOSITORIO_AQUI)
