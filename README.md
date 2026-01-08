@@ -1,11 +1,14 @@
 # Olá, eu sou o Kelwin 👋
 
-Sou um desenvolvedor em formação, focado no ecossistema **Java**. O meu objetivo atual é construir uma base sólida em arquitetura de software, persistência de dados e as melhores práticas de POO.
+Desenvolvedor em formação focado no ecossistema **Java**. Priorizo código limpo e arquitetura organizada.
 
 ## 🛠️ Stack Técnica
-- **Linguagem:** Java (JDK 21)
-- **Banco de Dados:** PostgreSQL (JDBC)
-- **SO:** Linux Mint | **IDE:** IntelliJ IDEA
+<div style="display: inline_block">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40" alt="Java" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" height="40" alt="Postgres" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40" alt="Linux" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" width="40" height="40" alt="IntelliJ" />
+</div>
 
 ## 🏦 Projeto em Destaque
 ### [Simulador de Empréstimo Bancário](LINK_DO_SEU_REPOSITORIO_AQUI)
