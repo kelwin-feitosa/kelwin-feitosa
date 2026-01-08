@@ -1,14 +1,11 @@
 # Olá, eu sou o Kelwin 👋
 
-Desenvolvedor em formação focado no ecossistema **Java**. Priorizo código limpo e arquitetura organizada.
+Desenvolvedor em formação focado no ecossistema **Java**. Priorizo código limpo, lógica bem estruturada e arquitetura organizada.
 
 ## 🛠️ Stack Técnica
-<div style="display: inline_block">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40" alt="Java" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" height="40" alt="Postgres" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40" alt="Linux" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" width="40" height="40" alt="IntelliJ" />
-</div>
+- **Linguagem:** Java (JDK 21)
+- **Banco de Dados:** PostgreSQL (JDBC)
+- **SO:** Linux Mint | **IDE:** IntelliJ IDEA
 
 ## 🏦 Projeto em Destaque
 ### [Simulador de Empréstimo Bancário](LINK_DO_SEU_REPOSITORIO_AQUI)
@@ -19,3 +16,10 @@ Sistema de análise de crédito desenvolvido para consolidar conceitos de lógic
 ## 📫 Contacto:
 - [LinkedIn](https://www.linkedin.com/in/kelwinfeitosa/)
 - [E-mail](kelwinfeitosa@gmail.com)
+
+  <div style="display: inline_block">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40" alt="Java" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" height="40" alt="Postgres" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40" alt="Linux" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" width="40" height="40" alt="IntelliJ" />
+</div>
