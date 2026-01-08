@@ -14,8 +14,8 @@ Sistema de análise de crédito desenvolvido para consolidar conceitos de lógic
 - **Status:** Atualmente implementando a camada de persistência real utilizando **JDBC** para integração com **PostgreSQL**.
 
 ## 📫 Contacto:
-- LinkedIn: [LinkedIn]:(https://www.linkedin.com/in/kelwinfeitosa/)
-- E-mail: [E-mail]:(kelwinfeitosa@gmail.com)
+- LinkedIn: https://www.linkedin.com/in/kelwinfeitosa
+- E-mail: (kelwinfeitosa@gmail.com
 
   <div style="display: inline_block">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40" alt="Java" />
