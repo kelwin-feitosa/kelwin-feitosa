@@ -10,13 +10,13 @@ Desenvolvedor em formação focado no ecossistema **Java**. Priorizo código lim
 
 ## 🏗️ Projetos em Destaque
 
-### [MA7H_31GMA5 (Math Enigmas)](LINK_DO_REPOSITORIO)
+### [MA7H_31GMA5 (Math Enigmas) — *[Privado / Em Desenvolvimento]*](https://github.com/kelwin-feitosa/MA7H_31GMA5)
 API REST para gestão de sessões de desafios matemáticos.
 - **Funcionamento:** O sistema utiliza `records` para transferência de dados (DTOs) e gerencia o estado da rodada em memória via UUIDs, validando a resposta do cliente sem expô-la no payload.
 - **Lógica:** Implementa um serviço de sorteio baseado em níveis de dificuldade (`enum`), filtrando questões de um catálogo JSON através de Stream API.
 - **Tratamento de Erros:** Centralizado em um `GlobalExceptionHandler` que intercepta exceções de negócio e falhas de desserialização JSON.
 
-### [Simulador de Empréstimo Bancário](LINK_DO_REPOSITORIO)
+### [Simulador de Empréstimo Bancário](https://github.com/kelwin-feitosa/simulador-emprestimo-java)
 Sistema de análise de crédito focado em integridade financeira e persistência de dados.
 - **Lógica de Negócio:** Separação clara de responsabilidades entre `EmprestimoService` e `ValidadorEmprestimo`, utilizando `BigDecimal` com `RoundingMode.HALF_UP` para cálculos monetários precisos.
 - **Infraestrutura:** Implementação de uma `FabricaConexao` robusta que utiliza arquivos de propriedades externos (`.properties`) e o driver JDBC para comunicação com o **PostgreSQL**.
