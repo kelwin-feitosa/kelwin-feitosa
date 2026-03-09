@@ -1,4 +1,4 @@
-# Olá, eu sou o Kelwin (kohaku) 👋
+# Olá, eu sou o Kelwin👋
 
 Desenvolvedor em formação focado no ecossistema **Java**. Priorizo código limpo, lógica bem estruturada e a construção de arquiteturas modulares. Atualmente no 5º semestre de Ciência da Computação.
 
