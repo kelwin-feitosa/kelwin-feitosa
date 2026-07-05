@@ -1,35 +1,90 @@
-# Olá, eu sou o Kelwin👋
+# Olá, eu sou o Kelwin! 👋
 
-Desenvolvedor em formação focado no ecossistema **Java**. Priorizo código limpo, lógica bem estruturada e a construção de arquiteturas modulares. Atualmente no 5º semestre de Ciência da Computação.
+Sou estudante de Ciência da Computação e desenvolvedor backend em formação, com foco no ecossistema Java. Desenvolvo projetos pessoais para aplicar conhecimentos em Programação Orientada a Objetos, APIs REST, persistência de dados e boas práticas de desenvolvimento de software. Busco uma oportunidade de estágio para continuar evoluindo tecnicamente e contribuir com soluções de qualidade.
 
 ## 🛠️ Stack Técnica
-- **Linguagem:** Java (JDK 21)
-- **Framework:** Spring Boot
-- **Banco de Dados:** PostgreSQL (JDBC)
-- **SO:** Pop!_OS (Linux) | **IDE:** VS Code
 
-## 🏗️ Projetos em Destaque
+- **Linguagem:** Java 21
+- **Framework:** Spring Boot 3
+- **Persistência:** Spring Data JPA e JDBC
+- **Banco de Dados:** PostgreSQL e H2 Database
+- **Build Tool:** Maven
+- **Versionamento:** Git e GitHub
+- **Sistema Operacional:** Pop!_OS (Linux)
 
-### [MA7H_31GMA5 (Math Enigmas) — *[Privado / Em Desenvolvimento]*](https://github.com/kelwin-feitosa/MA7H_31GMA5)
-API REST para gestão de sessões de desafios matemáticos.
-- **Funcionamento:** O sistema utiliza `records` para transferência de dados (DTOs) e gerencia o estado da rodada em memória via UUIDs, validando a resposta do cliente sem expô-la no payload.
-- **Lógica:** Implementa um serviço de sorteio baseado em níveis de dificuldade (`enum`), filtrando questões de um catálogo JSON através de Stream API.
-- **Tratamento de Erros:** Centralizado em um `GlobalExceptionHandler` que intercepta exceções de negócio e falhas de desserialização JSON.
+---
 
-### [Simulador de Empréstimo Bancário](https://github.com/kelwin-feitosa/simulador-emprestimo-java)
-Sistema de análise de crédito focado em integridade financeira e persistência de dados.
-- **Lógica de Negócio:** Separação clara de responsabilidades entre `EmprestimoService` e `ValidadorEmprestimo`, utilizando `BigDecimal` com `RoundingMode.HALF_UP` para cálculos monetários precisos.
-- **Infraestrutura:** Implementação de uma `FabricaConexao` robusta que utiliza arquivos de propriedades externos (`.properties`) e o driver JDBC para comunicação com o **PostgreSQL**.
-- **Robustez:** Sistema de exceções personalizadas (`NegocioException`) e testes de conectividade integrados para validar a integração com o banco de dados.
+## 🚀 Projetos em Destaque
 
-## 📫 Contato:
-- **LinkedIn:** [kelwinfeitosa](https://www.linkedin.com/in/kelwinfeitosa)
-- **E-mail:** kelwinfeitosa@gmail.com
+### 🛒 [API REST de Catálogo de Produtos](https://github.com/kelwin-feitosa/api-catalogo-produtos)
 
-<div style="display: inline_block">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40" alt="Java" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="40" height="40" alt="Spring" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" height="40" alt="Postgres" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40" alt="Linux" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40" height="40" alt="VSCode" />
+API REST desenvolvida com **Java 21** e **Spring Boot 3** para gerenciamento de produtos, aplicando boas práticas de desenvolvimento backend e persistência de dados.
+
+**Principais funcionalidades:**
+- CRUD completo de produtos (cadastro, consulta, atualização e remoção).
+- Persistência de dados utilizando Spring Data JPA.
+- Validações de entrada com Jakarta Validation (`@NotBlank` e `@Positive`).
+- Tratamento global de exceções utilizando `@ControllerAdvice`.
+- Respostas de erro padronizadas utilizando um DTO (`RespostaErro`).
+- Organização da aplicação em camadas (Controller, Repository, Model e DTO).
+
+**Tecnologias utilizadas:**  
+Java 21 • Spring Boot 3 • Spring Data JPA • Jakarta Validation • H2 Database • Maven • Git • GitHub
+
+🔗 **Repositório:**  
+https://github.com/kelwin-feitosa/api-catalogo-produtos
+
+---
+
+### 💰 [Simulador de Empréstimos Bancários](https://github.com/kelwin-feitosa/simulador-emprestimo-java)
+
+Aplicação desenvolvida em Java para simulação de empréstimos, com foco em precisão dos cálculos financeiros e organização da lógica de negócio.
+
+**Principais funcionalidades:**
+- Cálculos financeiros utilizando `BigDecimal` e `RoundingMode.HALF_UP`.
+- Separação de responsabilidades entre classes de serviço e validação.
+- Persistência de dados utilizando JDBC e PostgreSQL.
+- Configuração da conexão por meio de arquivo `.properties`.
+- Tratamento de exceções personalizadas para regras de negócio.
+
+**Tecnologias utilizadas:**  
+Java 21 • JDBC • PostgreSQL • Maven • Git • GitHub
+
+🔗 **Repositório:**  
+https://github.com/kelwin-feitosa/simulador-emprestimo-java
+
+---
+
+## 📖 Atualmente estudando
+
+- Spring Security (JWT)
+- Docker
+- Testes Unitários com JUnit 5
+- Microsserviços
+- Arquitetura de Software
+
+---
+
+## 📫 Contato
+
+- 💼 **LinkedIn:**  
+  https://www.linkedin.com/in/kelwinfeitosa
+
+- 💻 **GitHub:**  
+  https://github.com/kelwin-feitosa
+
+- 📧 **E-mail:**  
+  kelwinfeitosa@gmail.com
+
+---
+
+<div align="center">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="45" alt="Java"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="45" alt="Spring Boot"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="45" alt="PostgreSQL"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="45" alt="Git"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="45" alt="Linux"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="45" alt="VS Code"/>
+
 </div>
