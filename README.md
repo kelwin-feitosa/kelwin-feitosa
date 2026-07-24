@@ -1,53 +1,79 @@
 # Olá, eu sou o Kelwin! 👋
 
-Sou estudante de Ciência da Computação e desenvolvedor backend em formação, com foco no ecossistema Java. Desenvolvo projetos pessoais para aplicar conhecimentos em Programação Orientada a Objetos, APIs REST, persistência de dados e boas práticas de desenvolvimento de software. Busco uma oportunidade de estágio para continuar evoluindo tecnicamente e contribuir com soluções de qualidade.
+Sou estudante de Ciência da Computação e desenvolvedor backend em formação, com foco no ecossistema Java.
+
+Desenvolvo projetos pessoais com foco em backend Java, aplicando Programação Orientada a Objetos, criação de APIs REST, modelagem de banco de dados, regras de negócio e boas práticas utilizadas no desenvolvimento de software.
+
+Busco uma oportunidade de estágio para continuar evoluindo tecnicamente e contribuir com soluções de qualidade.
+
+---
 
 ## 🛠️ Stack Técnica
 
 - **Linguagem:** Java 21
 - **Framework:** Spring Boot 3
-- **Persistência:** Spring Data JPA e JDBC
+- **Persistência:** Spring Data JPA, Hibernate e JDBC
 - **Banco de Dados:** PostgreSQL e H2 Database
+- **Validação:** Jakarta Validation
 - **Build Tool:** Maven
 - **Versionamento:** Git e GitHub
 - **Sistema Operacional:** Pop!_OS (Linux)
 
 ---
 
-## 🚀 Projetos em Destaque
+# 🚀 Projetos em Destaque
 
-### 🛒 [API REST de Catálogo de Produtos](https://github.com/kelwin-feitosa/api-catalogo-produtos)
+## 🛒 [API REST de Gerenciamento de Supermercado](https://github.com/kelwin-feitosa/supermarket-management-api)
 
-API REST desenvolvida com **Java 21** e **Spring Boot 3** para gerenciamento de produtos, aplicando boas práticas de desenvolvimento backend e persistência de dados.
+API REST desenvolvida com **Java 21** e **Spring Boot 3** para simular um sistema de gerenciamento de supermercado, aplicando arquitetura em camadas, persistência de dados com JPA/Hibernate e implementação de regras de negócio.
 
-**Principais funcionalidades:**
-- CRUD completo de produtos (cadastro, consulta, atualização e remoção).
-- Persistência de dados utilizando Spring Data JPA.
-- Validações de entrada com Jakarta Validation (`@NotBlank` e `@Positive`).
+O projeto possui fluxo completo desde o cadastro de produtos até a realização de vendas, incluindo controle de estoque e gerenciamento de carrinho de compras.
+
+### Principais funcionalidades:
+
+- CRUD de produtos e categorias.
+- Gerenciamento de clientes.
+- Controle de estoque.
+- Criação e gerenciamento de carrinho de compras.
+- Adição, alteração e remoção de itens do carrinho.
+- Cálculo automático de subtotal dos itens.
+- Cálculo automático do valor total da compra.
+- Conversão de carrinho em venda.
+- Registro de vendas com histórico dos produtos vendidos.
+- Baixa automática de estoque após finalização da venda.
+- Validação de disponibilidade de produtos.
 - Tratamento global de exceções utilizando `@ControllerAdvice`.
-- Respostas de erro padronizadas utilizando um DTO (`RespostaErro`).
-- Organização da aplicação em camadas (Controller, Repository, Model e DTO).
+- Organização da aplicação em camadas:
+  - Controller
+  - Service
+  - Repository
+  - Model
+  - DTO
+  - Exception Handler
 
-**Tecnologias utilizadas:**  
-Java 21 • Spring Boot 3 • Spring Data JPA • Jakarta Validation • H2 Database • Maven • Git • GitHub
+### Tecnologias utilizadas:
+
+Java 21 • Spring Boot 3 • Spring Data JPA • Hibernate • Jakarta Validation • H2 Database • Maven • Git • GitHub
 
 🔗 **Repositório:**  
-https://github.com/kelwin-feitosa/api-catalogo-produtos
+https://github.com/kelwin-feitosa/supermarket-management-api
 
 ---
 
-### 💰 [Simulador de Empréstimos Bancários](https://github.com/kelwin-feitosa/simulador-emprestimo-java)
+## 💰 [Simulador de Empréstimos Bancários](https://github.com/kelwin-feitosa/simulador-emprestimo-java)
 
 Aplicação desenvolvida em Java para simulação de empréstimos, com foco em precisão dos cálculos financeiros e organização da lógica de negócio.
 
-**Principais funcionalidades:**
+### Principais funcionalidades:
+
 - Cálculos financeiros utilizando `BigDecimal` e `RoundingMode.HALF_UP`.
 - Separação de responsabilidades entre classes de serviço e validação.
 - Persistência de dados utilizando JDBC e PostgreSQL.
 - Configuração da conexão por meio de arquivo `.properties`.
 - Tratamento de exceções personalizadas para regras de negócio.
 
-**Tecnologias utilizadas:**  
+### Tecnologias utilizadas:
+
 Java 21 • JDBC • PostgreSQL • Maven • Git • GitHub
 
 🔗 **Repositório:**  
@@ -55,26 +81,28 @@ https://github.com/kelwin-feitosa/simulador-emprestimo-java
 
 ---
 
-## 📖 Atualmente estudando
+# 📖 Atualmente estudando
 
-- Spring Security (JWT)
+- Spring Security com JWT
 - Docker
 - Testes Unitários com JUnit 5
+- Testes de integração
 - Microsserviços
 - Arquitetura de Software
+- Integração com Inteligência Artificial em aplicações backend
 
 ---
 
-## 📫 Contato
+# 📫 Contato
 
 - 💼 **LinkedIn:**  
-  https://www.linkedin.com/in/kelwinfeitosa
+https://www.linkedin.com/in/kelwinfeitosa
 
 - 💻 **GitHub:**  
-  https://github.com/kelwin-feitosa
+https://github.com/kelwin-feitosa
 
 - 📧 **E-mail:**  
-  kelwinfeitosa@gmail.com
+kelwinfeitosa@gmail.com
 
 ---
 
@@ -85,6 +113,6 @@ https://github.com/kelwin-feitosa/simulador-emprestimo-java
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="45" alt="PostgreSQL"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="45" alt="Git"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="45" alt="Linux"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="45" alt="VS Code"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="45" alt="Docker"/>
 
 </div>
