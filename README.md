@@ -188,6 +188,18 @@ Aplicação Java desenvolvida para simular empréstimos bancários, com foco em 
 
 ---
 
+## 🐍 Contribuições
+
+<div align="center">
+
+<img
+  src="https://raw.githubusercontent.com/kelwin-feitosa/kelwin-feitosa/gh-pages/github-contribution-grid-snake-dark.svg"
+  alt="GitHub Contribution Snake"
+/>
+
+</div>
+
+---
 
 # 📫 Onde me encontrar
 
