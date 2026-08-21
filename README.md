@@ -1,118 +1,206 @@
-# Olá, eu sou o Kelwin! 👋
+# 👋 Olá, eu sou o Kelwin!
+
+🎓 **Estudante de Ciência da Computação**  
+💻 **Desenvolvedor Backend em formação**  
+☕ **Java | Spring Boot | PostgreSQL**
 
 Sou estudante de Ciência da Computação e desenvolvedor backend em formação, com foco no ecossistema Java.
 
-Desenvolvo projetos pessoais com foco em backend Java, aplicando Programação Orientada a Objetos, criação de APIs REST, modelagem de banco de dados, regras de negócio e boas práticas utilizadas no desenvolvimento de software.
+Gosto de transformar problemas em soluções através de código, buscando escrever aplicações organizadas, testáveis e próximas das práticas utilizadas no desenvolvimento profissional.
 
-Busco uma oportunidade de estágio para continuar evoluindo tecnicamente e contribuir com soluções de qualidade.
-
----
-
-## 🛠️ Stack Técnica
-
-- **Linguagem:** Java 21
-- **Framework:** Spring Boot 3
-- **Persistência:** Spring Data JPA, Hibernate e JDBC
-- **Banco de Dados:** PostgreSQL e H2 Database
-- **Validação:** Jakarta Validation
-- **Build Tool:** Maven
-- **Versionamento:** Git e GitHub
-- **Sistema Operacional:** Pop!_OS (Linux)
+Atualmente, estou focado em evoluir como desenvolvedor backend e busco uma oportunidade de estágio para colocar meus conhecimentos em prática.
 
 ---
 
-# 🚀 Projetos em Destaque
+## 🚀 Sobre mim
 
-## 🛒 [API REST de Gerenciamento de Supermercado](https://github.com/kelwin-feitosa/supermarket-management-api)
+```java
+public class Kelwin {
 
-API REST desenvolvida com **Java 21** e **Spring Boot 3** para simular um sistema de gerenciamento de supermercado, aplicando arquitetura em camadas, persistência de dados com JPA/Hibernate e implementação de regras de negócio.
+    String curso = "Ciência da Computação";
+    String foco = "Desenvolvimento Backend";
 
-O projeto possui fluxo completo desde o cadastro de produtos até a realização de vendas, incluindo controle de estoque e gerenciamento de carrinho de compras.
+    String[] principaisTecnologias = {
+        "Java",
+        "Spring Boot",
+        "Spring Data JPA",
+        "Hibernate",
+        "PostgreSQL"
+    };
 
-### Principais funcionalidades:
-
-- CRUD de produtos e categorias.
-- Gerenciamento de clientes.
-- Controle de estoque.
-- Criação e gerenciamento de carrinho de compras.
-- Adição, alteração e remoção de itens do carrinho.
-- Cálculo automático de subtotal dos itens.
-- Cálculo automático do valor total da compra.
-- Conversão de carrinho em venda.
-- Registro de vendas com histórico dos produtos vendidos.
-- Baixa automática de estoque após finalização da venda.
-- Validação de disponibilidade de produtos.
-- Tratamento global de exceções utilizando `@ControllerAdvice`.
-- Organização da aplicação em camadas:
-  - Controller
-  - Service
-  - Repository
-  - Model
-  - DTO
-  - Exception Handler
-
-### Tecnologias utilizadas:
-
-Java 21 • Spring Boot 3 • Spring Data JPA • Hibernate • Jakarta Validation • H2 Database • Maven • Git • GitHub
-
-🔗 **Repositório:**  
-https://github.com/kelwin-feitosa/supermarket-management-api
+    String objetivo =
+        "Tornar-me um desenvolvedor backend cada vez melhor";
+}
+```
 
 ---
 
-## 💰 [Simulador de Empréstimos Bancários](https://github.com/kelwin-feitosa/simulador-emprestimo-java)
+## 🛠️ Stack
 
-Aplicação desenvolvida em Java para simulação de empréstimos, com foco em precisão dos cálculos financeiros e organização da lógica de negócio.
+### ☕ Backend
 
-### Principais funcionalidades:
+![Java](https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Data JPA](https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
 
-- Cálculos financeiros utilizando `BigDecimal` e `RoundingMode.HALF_UP`.
-- Separação de responsabilidades entre classes de serviço e validação.
-- Persistência de dados utilizando JDBC e PostgreSQL.
-- Configuração da conexão por meio de arquivo `.properties`.
-- Tratamento de exceções personalizadas para regras de negócio.
+### 🗄️ Banco de Dados
 
-### Tecnologias utilizadas:
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![H2](https://img.shields.io/badge/H2-Database-09476B?style=for-the-badge)
 
-Java 21 • JDBC • PostgreSQL • Maven • Git • GitHub
+### 🧪 Testes e Qualidade
 
-🔗 **Repositório:**  
-https://github.com/kelwin-feitosa/simulador-emprestimo-java
+![JUnit](https://img.shields.io/badge/JUnit%205-25A162?style=for-the-badge&logo=junit5&logoColor=white)
+![Mockito](https://img.shields.io/badge/Mockito-78A641?style=for-the-badge)
+![JaCoCo](https://img.shields.io/badge/JaCoCo-Coverage-EF2D5E?style=for-the-badge)
+![SonarCloud](https://img.shields.io/badge/SonarCloud-F3702A?style=for-the-badge&logo=sonarcloud&logoColor=white)
+
+### 🐳 Ferramentas
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ---
 
-# 📖 Atualmente estudando
+# 🚀 Projeto em Destaque
 
-- Spring Security com JWT
-- Docker
-- Testes Unitários com JUnit 5
+## 🛒 Supermarket Management API
+
+API REST desenvolvida com **Java 21** e **Spring Boot 4** para simular o backend de um sistema de gerenciamento de supermercado.
+
+O projeto aplica conceitos utilizados em aplicações backend reais, incluindo arquitetura em camadas, persistência relacional, validação, tratamento de exceções, testes, documentação e containerização.
+
+### ✨ Funcionalidades
+
+- 🛍️ CRUD de produtos
+- 🏷️ CRUD de categorias
+- 👤 Gerenciamento de clientes
+- 📦 Controle de estoque
+- 🛒 Carrinho de compras
+- ➕ Adição e alteração de itens
+- ➖ Remoção de itens
+- 🧮 Cálculo automático de subtotais
+- 💰 Cálculo do valor total
+- 🧾 Conversão de carrinho em venda
+- 📊 Histórico de vendas
+- 📉 Baixa automática de estoque
+- ✅ Validação de disponibilidade
+- ⚠️ Tratamento global de exceções
+- 📋 Validação com Jakarta Validation
+- 📚 Documentação com Swagger / OpenAPI
+- 🧪 Testes com JUnit 5 e Mockito
+- 📈 Cobertura com JaCoCo
+- 🔎 Análise com SonarCloud
+- 🐳 PostgreSQL executado com Docker Compose
+
+### 🏗️ Arquitetura
+
+```text
+src
+└── main
+    └── java
+        └── com.exemplo.meu_primeiro_projeto
+            ├── controller
+            ├── service
+            ├── repository
+            ├── model
+            ├── dto
+            ├── exception
+            ├── specification
+            └── util
+```
+
+### 🧰 Tecnologias
+
+```text
+Java 21
+Spring Boot 4
+Spring Data JPA
+Hibernate
+Jakarta Validation
+PostgreSQL
+H2 Database
+JUnit 5
+Mockito
+JaCoCo
+Swagger / OpenAPI
+Docker
+Docker Compose
+Maven
+Git
+SonarCloud
+```
+
+### 🔗 Repositório
+
+[![GitHub](https://img.shields.io/badge/GitHub-Supermarket%20Management%20API-181717?style=for-the-badge&logo=github)](https://github.com/kelwin-feitosa/supermarket-management-api)
+
+---
+
+# 💰 Outro Projeto
+
+## Simulador de Empréstimos Bancários
+
+Aplicação Java desenvolvida para simular empréstimos bancários, com foco em precisão matemática e organização da lógica de negócio.
+
+### Principais conceitos
+
+- `BigDecimal`
+- `RoundingMode.HALF_UP`
+- JDBC
+- PostgreSQL
+- Validação de dados
+- Exceções personalizadas
+- Separação de responsabilidades
+
+[![GitHub](https://img.shields.io/badge/GitHub-Simulador%20de%20Empréstimos-181717?style=for-the-badge&logo=github)](https://github.com/kelwin-feitosa/simulador-emprestimo-java)
+
+---
+
+# 📚 Atualmente estudando
+
+- Spring Security
+- JWT
+- BCrypt
+- Flyway
 - Testes de integração
+- Testcontainers
+- Docker
+- Concorrência
 - Microsserviços
 - Arquitetura de Software
-- Integração com Inteligência Artificial em aplicações backend
+- Integração com Inteligência Artificial
 
 ---
 
-# 📫 Contato
+## 📊 GitHub
 
-- 💼 **LinkedIn:**  
-https://www.linkedin.com/in/kelwinfeitosa
+![GitHub followers](https://img.shields.io/github/followers/kelwin-feitosa?style=for-the-badge&logo=github&label=Seguidores)
 
-- 💻 **GitHub:**  
-https://github.com/kelwin-feitosa
+![GitHub stars](https://img.shields.io/github/stars/kelwin-feitosa?style=for-the-badge&logo=github&label=Stars)
 
-- 📧 **E-mail:**  
-kelwinfeitosa@gmail.com
+![GitHub repositories](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/kelwin-feitosa&query=%24.public_repos&label=Repositórios&style=for-the-badge&logo=github)
+
+---
+
+
+# 📫 Onde me encontrar
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kelwin%20Feitosa-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kelwinfeitosa)
+
+[![Email](https://img.shields.io/badge/Email-kelwinfeitosa%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kelwinfeitosa@gmail.com)
+
+</div>
 
 ---
 
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="45" alt="Java"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="45" alt="Spring Boot"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="45" alt="PostgreSQL"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="45" alt="Git"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="45" alt="Linux"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="45" alt="Docker"/>
+### ☕ Transformando café em código.
 
 </div>
