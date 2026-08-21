@@ -178,11 +178,13 @@ Aplicação Java desenvolvida para simular empréstimos bancários, com foco em 
 
 ## 📊 GitHub
 
-![GitHub followers](https://img.shields.io/github/followers/kelwin-feitosa?style=for-the-badge&logo=github&label=Seguidores)
+<div align="center">
 
-![GitHub stars](https://img.shields.io/github/stars/kelwin-feitosa?style=for-the-badge&logo=github&label=Stars)
+<img src="./profile/stats.svg" height="180em"/>
 
-![GitHub repositories](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/kelwin-feitosa&query=%24.public_repos&label=Repositórios&style=for-the-badge&logo=github)
+<img src="./profile/top-langs.svg" height="180em"/>
+
+</div>
 
 ---
 
