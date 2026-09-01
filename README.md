@@ -4,7 +4,7 @@
 💻 **Desenvolvedor Backend em formação**  
 ☕ **Java | Spring Boot | PostgreSQL**
 
-Sou estudante de Ciência da Computação e desenvolvedor backend em formação, com foco no ecossistema Java.
+Sou estudante de Ciência da Computação e desenvolvedor backend em formação, com foco no ecossistema Java e no desenvolvimento de APIs REST.
 
 Gosto de transformar problemas em soluções através de código, buscando escrever aplicações organizadas, testáveis e próximas das práticas utilizadas no desenvolvimento profissional.
 
@@ -26,6 +26,13 @@ public class Kelwin {
         "Spring Data JPA",
         "Hibernate",
         "PostgreSQL"
+    };
+
+    String[] praticas = {
+        "APIs REST",
+        "Testes automatizados",
+        "Docker",
+        "CI/CD"
     };
 
     String objetivo =
@@ -56,9 +63,12 @@ public class Kelwin {
 ![JaCoCo](https://img.shields.io/badge/JaCoCo-Coverage-EF2D5E?style=for-the-badge)
 ![SonarCloud](https://img.shields.io/badge/SonarCloud-F3702A?style=for-the-badge&logo=sonarcloud&logoColor=white)
 
-### 🐳 Ferramentas
+### 🐳 Ferramentas e DevOps
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Docker Compose](https://img.shields.io/badge/Docker%20Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Flyway](https://img.shields.io/badge/Flyway-CC0200?style=for-the-badge&logo=flyway&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
@@ -71,13 +81,14 @@ public class Kelwin {
 
 API REST desenvolvida com **Java 21** e **Spring Boot 4** para simular o backend de um sistema de gerenciamento de supermercado.
 
-O projeto aplica conceitos utilizados em aplicações backend reais, incluindo arquitetura em camadas, persistência relacional, validação, tratamento de exceções, testes, documentação e containerização.
+O projeto aplica conceitos utilizados em aplicações backend reais, incluindo arquitetura em camadas, persistência relacional, validação, tratamento de exceções, testes automatizados, documentação, migrações de banco de dados, containerização e integração contínua.
 
 ### ✨ Funcionalidades
 
 - 🛍️ CRUD de produtos
 - 🏷️ CRUD de categorias
 - 👤 Gerenciamento de clientes
+- 🏭 Gerenciamento de fornecedores
 - 📦 Controle de estoque
 - 🛒 Carrinho de compras
 - ➕ Adição e alteração de itens
@@ -88,29 +99,45 @@ O projeto aplica conceitos utilizados em aplicações backend reais, incluindo a
 - 📊 Histórico de vendas
 - 📉 Baixa automática de estoque
 - ✅ Validação de disponibilidade
+- 🔎 Filtros dinâmicos com JPA Specifications
+- 📄 Paginação de resultados
 - ⚠️ Tratamento global de exceções
 - 📋 Validação com Jakarta Validation
 - 📚 Documentação com Swagger / OpenAPI
 - 🧪 Testes com JUnit 5 e Mockito
-- 📈 Cobertura com JaCoCo
-- 🔎 Análise com SonarCloud
+- 📈 Cobertura de código com JaCoCo
+- 🔎 Análise de qualidade com SonarCloud
+- 🗄️ Migrações de banco com Flyway
 - 🐳 PostgreSQL executado com Docker Compose
+- 🔄 Integração contínua com GitHub Actions
 
 ### 🏗️ Arquitetura
 
 ```text
 src
-└── main
-    └── java
-        └── com.exemplo.meu_primeiro_projeto
-            ├── controller
-            ├── service
-            ├── repository
-            ├── model
-            ├── dto
-            ├── exception
-            ├── specification
-            └── util
+├── main
+│   ├── java
+│   │   └── com.exemplo.meu_primeiro_projeto
+│   │       ├── config
+│   │       ├── controller
+│   │       ├── dto
+│   │       ├── exception
+│   │       ├── mapper
+│   │       ├── model
+│   │       ├── repository
+│   │       │   └── specification
+│   │       ├── service
+│   │       └── util
+│   │
+│   └── resources
+│       ├── db
+│       │   └── migration
+│       └── application.properties
+│
+└── test
+    ├── java
+    └── resources
+        └── application-test.properties
 ```
 
 ### 🧰 Tecnologias
@@ -122,7 +149,7 @@ Spring Data JPA
 Hibernate
 Jakarta Validation
 PostgreSQL
-H2 Database
+Flyway
 JUnit 5
 Mockito
 JaCoCo
@@ -131,6 +158,7 @@ Docker
 Docker Compose
 Maven
 Git
+GitHub Actions
 SonarCloud
 ```
 
@@ -165,13 +193,12 @@ Aplicação Java desenvolvida para simular empréstimos bancários, com foco em 
 - Spring Security
 - JWT
 - BCrypt
-- Flyway
 - Testes de integração
 - Testcontainers
-- Docker
 - Concorrência
 - Microsserviços
 - Arquitetura de Software
+- Cloud
 - Integração com Inteligência Artificial
 
 ---
