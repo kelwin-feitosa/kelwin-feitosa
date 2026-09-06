@@ -6,9 +6,9 @@
 
 Sou estudante de Ciência da Computação e desenvolvedor backend em formação, com foco no ecossistema Java e no desenvolvimento de APIs REST.
 
-Gosto de transformar problemas em soluções através de código, buscando escrever aplicações organizadas, testáveis e próximas das práticas utilizadas no desenvolvimento profissional.
+Gosto de transformar problemas em soluções através de código, buscando desenvolver aplicações organizadas, testáveis e alinhadas às boas práticas de desenvolvimento.
 
-Atualmente, estou focado em evoluir como desenvolvedor backend e busco uma oportunidade de estágio para colocar meus conhecimentos em prática.
+Atualmente, estou aprofundando meus conhecimentos em **Java, Spring Boot, bancos de dados, testes, segurança e arquitetura de software**, enquanto busco uma oportunidade de estágio para aplicar meus conhecimentos em um ambiente profissional.
 
 ---
 
@@ -32,7 +32,8 @@ public class Kelwin {
         "APIs REST",
         "Testes automatizados",
         "Docker",
-        "CI/CD"
+        "CI/CD",
+        "Segurança com JWT"
     };
 
     String objetivo =
@@ -50,6 +51,12 @@ public class Kelwin {
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Spring Data JPA](https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
+
+### 🔐 Segurança
+
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![BCrypt](https://img.shields.io/badge/BCrypt-Password%20Hashing-59666C?style=for-the-badge)
 
 ### 🗄️ Banco de Dados
 
@@ -81,13 +88,13 @@ public class Kelwin {
 
 API REST desenvolvida com **Java 21** e **Spring Boot 4** para simular o backend de um sistema de gerenciamento de supermercado.
 
-O projeto aplica conceitos utilizados em aplicações backend reais, incluindo arquitetura em camadas, persistência relacional, validação, tratamento de exceções, testes automatizados, documentação, migrações de banco de dados, containerização e integração contínua.
+O projeto aplica conceitos utilizados em aplicações backend, incluindo **arquitetura em camadas, persistência relacional, regras de negócio, segurança, testes automatizados, documentação, migrações de banco de dados, containerização e integração contínua**.
 
 ### ✨ Funcionalidades
 
 - 🛍️ CRUD de produtos
 - 🏷️ CRUD de categorias
-- 👤 Gerenciamento de clientes
+- 👤 Gerenciamento de usuários
 - 🏭 Gerenciamento de fornecedores
 - 📦 Controle de estoque
 - 🛒 Carrinho de compras
@@ -103,6 +110,9 @@ O projeto aplica conceitos utilizados em aplicações backend reais, incluindo a
 - 📄 Paginação de resultados
 - ⚠️ Tratamento global de exceções
 - 📋 Validação com Jakarta Validation
+- 🔐 Autenticação com JWT
+- 🔑 Hash de senhas com BCrypt
+- 🛡️ Autorização baseada em roles
 - 📚 Documentação com Swagger / OpenAPI
 - 🧪 Testes com JUnit 5 e Mockito
 - 📈 Cobertura de código com JaCoCo
@@ -121,11 +131,17 @@ src
 │   │       ├── config
 │   │       ├── controller
 │   │       ├── dto
+│   │       │   ├── filter
+│   │       │   ├── request
+│   │       │   └── response
 │   │       ├── exception
 │   │       ├── mapper
 │   │       ├── model
 │   │       ├── repository
 │   │       │   └── specification
+│   │       ├── security
+│   │       │   ├── filter
+│   │       │   └── service
 │   │       ├── service
 │   │       └── util
 │   │
@@ -140,14 +156,41 @@ src
         └── application-test.properties
 ```
 
+### 🔐 Segurança
+
+A API utiliza **Spring Security**, **JWT** e **BCrypt**.
+
+A autenticação é stateless e utiliza tokens JWT enviados através do header:
+
+```http
+Authorization: Bearer <token>
+```
+
+O controle de acesso utiliza diferentes roles e `@PreAuthorize`:
+
+```text
+SYSTEM_ADMIN
+      ↓
+   MANAGER
+    ↙   ↘
+STOCK_MANAGER  CASHIER
+
+CUSTOMER
+```
+
+A chave utilizada para assinar os tokens JWT é fornecida através da variável de ambiente `JWT_SECRET`.
+
 ### 🧰 Tecnologias
 
 ```text
 Java 21
 Spring Boot 4
+Spring Security
 Spring Data JPA
 Hibernate
 Jakarta Validation
+JWT
+BCrypt
 PostgreSQL
 Flyway
 JUnit 5
@@ -172,7 +215,7 @@ SonarCloud
 
 ## Simulador de Empréstimos Bancários
 
-Aplicação Java desenvolvida para simular empréstimos bancários, com foco em precisão matemática e organização da lógica de negócio.
+Aplicação Java desenvolvida para simular empréstimos bancários, com foco em **precisão matemática, persistência de dados e organização da lógica de negócio**.
 
 ### Principais conceitos
 
@@ -190,14 +233,11 @@ Aplicação Java desenvolvida para simular empréstimos bancários, com foco em 
 
 # 📚 Atualmente estudando
 
-- Spring Security
-- JWT
-- BCrypt
 - Testes de integração
 - Testcontainers
 - Concorrência
-- Microsserviços
 - Arquitetura de Software
+- Microsserviços
 - Cloud
 - Integração com Inteligência Artificial
 
