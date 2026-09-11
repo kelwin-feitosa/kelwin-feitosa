@@ -211,35 +211,55 @@ SonarCloud
 
 ---
 
-# 💰 Outro Projeto
+# 🤖 Outro Projeto
 
-## Simulador de Empréstimos Bancários
+## Assistente Financeiro
 
-Aplicação Java desenvolvida para simular empréstimos bancários, com foco em **precisão matemática, persistência de dados e organização da lógica de negócio**.
+Assistente financeiro em desenvolvimento com **Java 21, Spring Boot e Spring AI**, como projeto de conclusão do **Bootcamp Itaú - Java com Inteligência Artificial**, da Digital Innovation One (DIO).
 
-### Principais conceitos
+O projeto busca integrar **Inteligência Artificial a uma aplicação backend**, permitindo que o usuário interaja com o sistema por meio de linguagem natural. A IA interpreta a solicitação e pode utilizar ferramentas da aplicação para executar operações relacionadas a transações financeiras.
 
-- `BigDecimal`
-- `RoundingMode.HALF_UP`
-- JDBC
-- PostgreSQL
-- Validação de dados
-- Exceções personalizadas
-- Separação de responsabilidades
+### ✨ Funcionalidades
 
-[![GitHub](https://img.shields.io/badge/GitHub-Simulador%20de%20Empréstimos-181717?style=for-the-badge&logo=github)](https://github.com/kelwin-feitosa/simulador-emprestimo-java)
+- 💰 Cadastro de transações financeiras
+- 🔎 Consulta de transações
+- 🤖 Integração com modelo de linguagem
+- 🛠️ Tool Calling para execução de operações da aplicação
+- 🎤 Speech-to-Text
+- 🔊 Text-to-Speech
+- 🗄️ Persistência com MySQL
+- 🌐 API REST
 
----
+### 🏗️ Tecnologias
 
-# 📚 Atualmente estudando
+```text
+Java 21
+Spring Boot
+Spring AI
+Groq
+Spring Data JPA
+MySQL
+Docker
+Maven
+Git
+GitHub
+```
 
-- Testes de integração
-- Testcontainers
-- Concorrência
-- Arquitetura de Software
-- Microsserviços
-- Cloud
-- Integração com Inteligência Artificial
+### 🧠 Conceitos a ser estudados
+
+- Integração de LLMs em aplicações Java
+- Spring AI
+- ChatClient
+- Tool Calling
+- Processamento de linguagem natural
+- Integração entre IA e regras da aplicação
+- Arquitetura em camadas
+- Persistência de dados
+- APIs REST
+
+### 🔗 Repositório
+
+[![GitHub](https://img.shields.io/badge/GitHub-Assistente%20Financeiro-181717?style=for-the-badge&logo=github)](https://github.com/kelwin-feitosa/assistente-financeiro)
 
 ---
 
