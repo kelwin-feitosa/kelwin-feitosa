@@ -67,14 +67,13 @@ O projeto explora **LLMs, Spring AI, Groq e Tool Calling** aplicados a uma API d
 </div>
 
 ---
-
-# 📫 Contato
+## 📫 Contato
 
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Kelwin%20Feitosa-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kelwinfeitosa)
 
-[![GitHub](https://img.shields.io/badge/GitHub-Kelwin%20Feitosa-181717?style=for-the-badge&logo=github)](https://github.com/kelwin-feitosa)
+[![Email](https://img.shields.io/badge/Email-kelwinfeitosa%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kelwinfeitosa@gmail.com)
 
 </div>
 
