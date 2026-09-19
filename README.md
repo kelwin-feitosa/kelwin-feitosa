@@ -2,11 +2,11 @@
 
 🎓 **Estudante de Ciência da Computação**  
 💻 **Desenvolvedor Backend em formação**  
-☕ **Java | Spring Boot | APIs REST**
+☕ **Java | Spring Boot | APIs REST | Inteligência Artificial**
 
 Sou estudante de Ciência da Computação e desenvolvedor backend em formação, com foco no ecossistema Java.
 
-Atualmente, estou aprofundando meus conhecimentos em **Java, Spring Boot, bancos de dados, testes, segurança, arquitetura de software e Inteligência Artificial aplicada ao backend**, enquanto busco uma oportunidade de estágio.
+Tenho aprofundado meus conhecimentos em **Java, Spring Boot, bancos de dados, testes, segurança, arquitetura de software e Inteligência Artificial aplicada ao backend**, enquanto busco uma oportunidade de estágio.
 
 ---
 
@@ -16,6 +16,7 @@ Atualmente, estou aprofundando meus conhecimentos em **Java, Spring Boot, bancos
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
 ![Spring Data JPA](https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Spring AI](https://img.shields.io/badge/Spring%20AI-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -30,17 +31,27 @@ Atualmente, estou aprofundando meus conhecimentos em **Java, Spring Boot, bancos
 
 API REST desenvolvida com **Java 21 e Spring Boot**, voltada para gerenciamento de supermercado.
 
-Projeto principal de backend, envolvendo **JPA, PostgreSQL, Spring Security, JWT, testes automatizados, Docker, Flyway, Swagger, SonarCloud e CI/CD**.
+Projeto principal de backend, envolvendo **Spring Data JPA, PostgreSQL, Spring Security, JWT, testes automatizados, Docker, Flyway, Swagger, SonarCloud e CI/CD**.
 
 👉 [Ver projeto no GitHub](https://github.com/kelwin-feitosa/supermarket-management-api)
 
 ### 🤖 Assistente Financeiro
 
-Assistente financeiro desenvolvido com **Java 21, Spring Boot e Spring AI** como projeto de conclusão do Bootcamp Itaú - Java com Inteligência Artificial.
+Assistente financeiro desenvolvido com **Java 21, Spring Boot e Spring AI** como projeto de conclusão do **Bootcamp Itaú - Java com Inteligência Artificial**, da DIO.
 
-O projeto explora **LLMs, Spring AI, Groq e Tool Calling** aplicados a uma API de gerenciamento financeiro.
+O projeto utiliza **Google Gemini, Tool Calling e MySQL** para interpretar solicitações financeiras em linguagem natural e executar operações sobre transações.
+
+Também possui interação por voz utilizando **Whisper.cpp** para Speech-to-Text e **Piper** para Text-to-Speech, além de testes automatizados e CI com GitHub Actions.
 
 👉 [Ver projeto no GitHub](https://github.com/kelwin-feitosa/assistente-financeiro)
+
+---
+
+## 📚 Formação e Aprendizado
+
+- **Ciência da Computação — UDF**
+- **Bootcamp Itaú - Java com Inteligência Artificial — DIO**
+- Estudos contínuos em **Java, Spring Boot, Engenharia de Software e Inteligência Artificial aplicada ao backend**
 
 ---
 
@@ -67,6 +78,7 @@ O projeto explora **LLMs, Spring AI, Groq e Tool Calling** aplicados a uma API d
 </div>
 
 ---
+
 ## 📫 Contato
 
 <div align="center">
