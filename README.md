@@ -35,6 +35,16 @@ Projeto principal de backend, envolvendo **Spring Data JPA, PostgreSQL, Spring S
 
 👉 [Ver projeto no GitHub](https://github.com/kelwin-feitosa/supermarket-management-api)
 
+### 🧠 PersonalDev
+
+Aplicação pessoal desenvolvida com **Java 21 e Spring Boot**, voltada para organização de objetivos, atividades, acompanhamento de execução e gerenciamento de conhecimento.
+
+O projeto está sendo desenvolvido com foco em **Engenharia de Software**, utilizando PostgreSQL, Docker, Flyway, testes automatizados e GitHub Actions. Futuramente, os dados acumulados poderão ser utilizados para implementar recomendações baseadas em **estatística e Machine Learning**.
+
+🚧 **Em desenvolvimento**
+
+👉 [Ver projeto no GitHub](https://github.com/kelwin-feitosa/personaldev)
+
 ### 🤖 Assistente Financeiro
 
 Assistente financeiro desenvolvido com **Java 21, Spring Boot e Spring AI** como projeto de conclusão do **Bootcamp Itaú - Java com Inteligência Artificial**, da DIO.
