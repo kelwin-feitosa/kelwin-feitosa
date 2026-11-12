@@ -1,9 +1,8 @@
 name: Update GitHub Stats
 
+# Legacy decorative assets are not used by the profile README.
+# Keep manual generation available without daily scheduled runs.
 on:
-  schedule:
-    - cron: "0 3 * * *"
-
   workflow_dispatch:
 
 permissions:
