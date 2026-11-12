@@ -1,108 +1,75 @@
-# 👋 Olá, eu sou o Kelwin!
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/engineering-signal-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/engineering-signal-light.svg">
+  <img src="./assets/engineering-signal-light.svg" alt="Abstract engineering signal: a flowing line crossing a precise geometric grid, with a subtle musical rhythm." width="100%">
+</picture>
 
-🎓 **Estudante de Ciência da Computação**  
-💻 **Desenvolvedor Backend em formação**  
-☕ **Java | Spring Boot | APIs REST | Inteligência Artificial**
+# Kelwin Feitosa
 
-Sou estudante de Ciência da Computação e desenvolvedor backend em formação, com foco no ecossistema Java.
+**Backend development · Java & Spring Boot · Python & automation**
 
-Tenho aprofundado meus conhecimentos em **Java, Spring Boot, bancos de dados, testes, segurança, arquitetura de software e Inteligência Artificial aplicada ao backend**, enquanto busco uma oportunidade de estágio.
+I build backend systems and practical tools, with an emphasis on **clear domain models, testable business logic, reliable APIs, and maintainable code**. I'm also interested in the intersection of software, AI, and music technology.
 
----
+**Brasília, Brazil** · Computer Science undergraduate at UDF (expected graduation: December 2027) · Interested in **internships and junior software engineering opportunities**, including remote international teams.
 
-## 🛠️ Tecnologias
-
-![Java](https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
-![Spring Data JPA](https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![Spring AI](https://img.shields.io/badge/Spring%20AI-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![JUnit](https://img.shields.io/badge/JUnit%205-25A162?style=for-the-badge&logo=junit5&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+[Selected work](#selected-work) · [LinkedIn](https://www.linkedin.com/in/kelwinfeitosa/) · [Email](mailto:kelwinfeitosa@gmail.com) · [Português](./README.pt-BR.md)
 
 ---
 
-# 🚀 Projetos em Destaque
+## Selected work
 
-### 🛒 Supermarket Management API
+### 01 / [Supermarket Management API](https://github.com/kelwin-feitosa/supermarket-management-api)
 
-API REST desenvolvida com **Java 21 e Spring Boot**, voltada para gerenciamento de supermercado.
+**Java 21 · Spring Boot 4 · PostgreSQL · Spring Security · Docker**
 
-Projeto principal de backend, envolvendo **Spring Data JPA, PostgreSQL, Spring Security, JWT, testes automatizados, Docker, Flyway, Swagger, SonarCloud e CI/CD**.
+A modular REST backend for supermarket operations: product catalog, suppliers, inventory, procurement, shopping carts, sales, and user management.
 
-👉 [Ver projeto no GitHub](https://github.com/kelwin-feitosa/supermarket-management-api)
+- **Engineering focus:** feature-oriented modular monolith, validation, transactional business operations, JWT-based security, filtering and pagination.
+- **Quality practices:** automated tests with JUnit/Mockito, API documentation, database tooling and GitHub Actions CI.
+- **Stage:** actively evolving backend; the planned frontend and point-of-sale interface are not yet implemented.
 
-### 🧠 PersonalDev
+[Explore architecture, setup and tests](https://github.com/kelwin-feitosa/supermarket-management-api#readme)
 
-Aplicação pessoal desenvolvida com **Java 21 e Spring Boot**, voltada para organização de objetivos, atividades, acompanhamento de execução e gerenciamento de conhecimento.
+### 02 / [AI Finance Assistant](https://github.com/kelwin-feitosa/assistente-financeiro)
 
-O projeto está sendo desenvolvido com foco em **Engenharia de Software**, utilizando PostgreSQL, Docker, Flyway, testes automatizados e GitHub Actions. Futuramente, os dados acumulados poderão ser utilizados para implementar recomendações baseadas em **estatística e Machine Learning**.
+**Java 21 · Spring Boot · Spring AI · MySQL · Gemini**
 
-🚧 **Em desenvolvimento**
+An AI-assisted transaction API developed as a capstone project for the **Itaú / DIO Java + AI bootcamp**.
 
-👉 [Ver projeto no GitHub](https://github.com/kelwin-feitosa/personaldev)
+- **Engineering focus:** natural-language requests mapped to explicit application operations through tool calling, with domain services kept separate from the AI integration.
+- **Additional interface:** a local speech pipeline using Whisper.cpp for transcription and Piper for speech synthesis.
+- **Quality practices:** JUnit/Mockito tests and a GitHub Actions workflow backed by MySQL for CI.
 
-### 🤖 Assistente Financeiro
+[Explore implementation and limitations](https://github.com/kelwin-feitosa/assistente-financeiro#readme)
 
-Assistente financeiro desenvolvido com **Java 21, Spring Boot e Spring AI** como projeto de conclusão do **Bootcamp Itaú - Java com Inteligência Artificial**, da DIO.
+<details>
+<summary><strong>More public work</strong></summary>
 
-O projeto utiliza **Google Gemini, Tool Calling e MySQL** para interpretar solicitações financeiras em linguagem natural e executar operações sobre transações.
+- [Java loan simulator](https://github.com/kelwin-feitosa/simulador-emprestimo-java) — credit rules and financial calculations with Java SE and `BigDecimal`; database persistence is still on the roadmap.
+- [Exercism solutions](https://github.com/kelwin-feitosa/exercism) — Java exercises and deliberate practice in programming fundamentals.
 
-Também possui interação por voz utilizando **Whisper.cpp** para Speech-to-Text e **Piper** para Text-to-Speech, além de testes automatizados e CI com GitHub Actions.
+</details>
 
-👉 [Ver projeto no GitHub](https://github.com/kelwin-feitosa/assistente-financeiro)
+## How I work
 
----
+| Area | Experience and tools |
+| --- | --- |
+| **Backend** | Java, Spring Boot, Spring Data JPA, Hibernate, REST APIs, validation |
+| **Data** | PostgreSQL, MySQL, relational modeling, Flyway |
+| **Security & reliability** | Spring Security, JWT, transaction boundaries, exception handling |
+| **Testing & delivery** | JUnit 5, Mockito, Maven, Docker, GitHub Actions, OpenAPI |
+| **Beyond the Java stack** | Python for experimentation and automation; interest in AI integration and music-related software |
 
-## 📚 Formação e Aprendizado
+I value documenting architectural decisions, understanding trade-offs, and improving code through tests and refactoring.
 
-- **Ciência da Computação — UDF**
-- **Bootcamp Itaú - Java com Inteligência Artificial — DIO**
-- Estudos contínuos em **Java, Spring Boot, Engenharia de Software e Inteligência Artificial aplicada ao backend**
+## An interdisciplinary perspective
 
----
+Alongside Computer Science, I trained in **transverse flute at the Escola de Música de Brasília**. Music has shaped my attention to structure, precision, and iterative practice. I'm particularly interested in software for **music notation, education, and computational music research**.
 
-## 📊 GitHub
+## Let's connect
 
-<div align="center">
+I'm interested in practical engineering challenges, meaningful collaboration, and early-career opportunities in backend engineering, automation, and MusicTech.
 
-<img src="./profile/stats.svg" height="180em"/>
-<img src="./profile/top-langs.svg" height="180em"/>
+**[LinkedIn](https://www.linkedin.com/in/kelwinfeitosa/)** · **[Email me](mailto:kelwinfeitosa@gmail.com)** · **[Browse repositories](https://github.com/kelwin-feitosa?tab=repositories)**
 
-</div>
-
----
-
-## 🐍 Contribuições
-
-<div align="center">
-
-<img
-  src="https://raw.githubusercontent.com/kelwin-feitosa/kelwin-feitosa/gh-pages/github-contribution-grid-snake-dark.svg"
-  alt="GitHub Contribution Snake"
-/>
-
-</div>
-
----
-
-## 📫 Contato
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kelwin%20Feitosa-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kelwinfeitosa)
-
-[![Email](https://img.shields.io/badge/Email-kelwinfeitosa%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kelwinfeitosa@gmail.com)
-
-</div>
-
----
-
-<div align="center">
-
-### ☕ Transformando café em código.
-
-</div>
+<sub>This profile prioritizes project evidence over activity counters. Project status and implementation details are documented in each linked repository.</sub>
