@@ -73,9 +73,9 @@ Curated discovery source: [Awesome GitHub Profile Gallery](https://github.com/ni
 ## Content architecture
 
 1. Theme-adaptive abstract banner.
-2. Name and immediate backend positioning.
+2. Name and immediate backend positioning in Portuguese, with an English language link.
 3. Location, education and opportunity direction.
-4. Direct links to projects, LinkedIn, email, Portuguese version.
+4. Direct links to projects, LinkedIn, email, English version.
 5. Two substantial public project cases, with problem, implementation focus and limitations.
 6. A collapsed section for small foundational public projects.
 7. Skills organized by engineering domain instead of badge brand.
@@ -92,7 +92,7 @@ Project statements are restricted to what their public READMEs support; product 
 | Technical evidence | 7 | 9 | Work descriptions lead with verifiable engineering |
 | Differentiation | 4 | 8 | Subtle authorial visual and music context |
 | Visual restraint | 4 | 9 | Replaces dense badges with compact signal graphic |
-| International access | 4 | 9 | English default plus Portuguese counterpart |
+| International access | 4 | 9 | Portuguese default with a complete English counterpart |
 | Accessibility design | 6 | 8 | Text-first content, alt text, high contrast variants |
 | Maintenance simplicity | 4 | 9 | No dynamic widgets in the rendered profile |
 | Honest project status | 5 | 9 | Removes outdated active state and flags limitations |
@@ -113,7 +113,7 @@ Suggested pins: Supermarket Management API, AI Finance Assistant, then selected 
 
 - [x] No third-party images or statistics referenced by the new main README.
 - [x] Both header variants exist in the branch.
-- [x] English and Portuguese README targets exist in the branch.
+- [x] Portuguese main README and English companion README exist in the branch.
 - [x] No private project names or private repository links are published in the new README.
 - [x] Planned functionality in the showcased projects is described as planned.
 - [ ] Visual GitHub UI review on desktop + mobile (requires rendered inspection).
@@ -121,3 +121,7 @@ Suggested pins: Supermarket Management API, AI Finance Assistant, then selected 
 - [ ] Recruiting outcomes or user testing (not measured).
 
 The original `profile/*.svg` assets are deliberately retained for rollback. The two previously scheduled decorative workflows may be switched to manual-only to avoid regenerating unused content; this is a reviewable change in the PR.
+
+## Language decision — updated after author feedback
+
+The main `README.md` is **Portuguese** to serve local recruiters and represent the author's preferred presentation language. A complete English counterpart is available at [`README.en.md`](../README.en.md) and linked near the introduction. The English language remains fully supported without being the default. This supersedes the earlier English-first proposal in the original mission.
