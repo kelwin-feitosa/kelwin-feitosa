@@ -1,9 +1,8 @@
 name: Generate Snake
 
+# Legacy decorative assets are not used by the profile README.
+# Keep manual generation available without daily scheduled runs.
 on:
-  schedule:
-    - cron: "0 0 * * *"
-
   workflow_dispatch:
 
 permissions:
