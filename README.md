@@ -1,75 +1,75 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/engineering-signal-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/engineering-signal-light.svg">
-  <img src="./assets/engineering-signal-light.svg" alt="Abstract engineering signal: a flowing line crossing a precise geometric grid, with a subtle musical rhythm." width="100%">
+  <img src="./assets/engineering-signal-light.svg" alt="Composição gráfica abstrata: linhas de sinal cruzando uma grade geométrica, com referência sutil a ritmo e precisão." width="100%">
 </picture>
 
 # Kelwin Feitosa
 
-**Backend development · Java & Spring Boot · Python & automation**
+**Desenvolvimento backend · Java e Spring Boot · Python e automação**
 
-I build backend systems and practical tools, with an emphasis on **clear domain models, testable business logic, reliable APIs, and maintainable code**. I'm also interested in the intersection of software, AI, and music technology.
+Desenvolvo sistemas backend e ferramentas práticas, com atenção à **modelagem de domínio, regras de negócio testáveis, APIs confiáveis e código de fácil manutenção**. Tenho interesse em soluções que aproximam engenharia de software, inteligência artificial e tecnologia musical.
 
-**Brasília, Brazil** · Computer Science undergraduate at UDF (expected graduation: December 2027) · Interested in **internships and junior software engineering opportunities**, including remote international teams.
+**Brasília, Brasil** · Graduando em Ciência da Computação na UDF (conclusão prevista: dezembro de 2027) · Em busca de **estágios e oportunidades de desenvolvimento júnior**, inclusive em equipes internacionais.
 
-[Selected work](#selected-work) · [LinkedIn](https://www.linkedin.com/in/kelwinfeitosa/) · [Email](mailto:kelwinfeitosa@gmail.com) · [Português](./README.pt-BR.md)
+[Projetos](#projetos-selecionados) · [LinkedIn](https://www.linkedin.com/in/kelwinfeitosa/) · [E-mail](mailto:kelwinfeitosa@gmail.com) · [English version](./README.en.md)
 
 ---
 
-## Selected work
+## Projetos selecionados
 
 ### 01 / [Supermarket Management API](https://github.com/kelwin-feitosa/supermarket-management-api)
 
 **Java 21 · Spring Boot 4 · PostgreSQL · Spring Security · Docker**
 
-A modular REST backend for supermarket operations: product catalog, suppliers, inventory, procurement, shopping carts, sales, and user management.
+Backend REST modular para operações de supermercado: catálogo de produtos, fornecedores, estoque, compras, carrinhos, vendas e gerenciamento de usuários.
 
-- **Engineering focus:** feature-oriented modular monolith, validation, transactional business operations, JWT-based security, filtering and pagination.
-- **Quality practices:** automated tests with JUnit/Mockito, API documentation, database tooling and GitHub Actions CI.
-- **Stage:** actively evolving backend; the planned frontend and point-of-sale interface are not yet implemented.
+- **Engenharia:** monólito modular organizado por funcionalidades, validação de dados, operações transacionais, autenticação JWT, filtros e paginação.
+- **Qualidade:** testes automatizados com JUnit/Mockito, documentação da API, ferramentas de banco de dados e integração contínua com GitHub Actions.
+- **Estado:** backend em evolução; a interface frontend e o módulo de frente de caixa ainda não foram implementados.
 
-[Explore architecture, setup and tests](https://github.com/kelwin-feitosa/supermarket-management-api#readme)
+[Explorar arquitetura, configuração e testes](https://github.com/kelwin-feitosa/supermarket-management-api#readme)
 
-### 02 / [AI Finance Assistant](https://github.com/kelwin-feitosa/assistente-financeiro)
+### 02 / [Assistente Financeiro com IA](https://github.com/kelwin-feitosa/assistente-financeiro)
 
 **Java 21 · Spring Boot · Spring AI · MySQL · Gemini**
 
-An AI-assisted transaction API developed as a capstone project for the **Itaú / DIO Java + AI bootcamp**.
+API de transações financeiras com integração de IA, desenvolvida como projeto de conclusão do **bootcamp Itaú / DIO — Java com Inteligência Artificial**.
 
-- **Engineering focus:** natural-language requests mapped to explicit application operations through tool calling, with domain services kept separate from the AI integration.
-- **Additional interface:** a local speech pipeline using Whisper.cpp for transcription and Piper for speech synthesis.
-- **Quality practices:** JUnit/Mockito tests and a GitHub Actions workflow backed by MySQL for CI.
+- **Engenharia:** solicitações em linguagem natural transformadas em operações explícitas por meio de *tool calling*, mantendo os serviços de domínio separados da integração com IA.
+- **Interface adicional:** fluxo local de voz com Whisper.cpp para transcrição e Piper para síntese de fala.
+- **Qualidade:** testes com JUnit/Mockito e integração contínua com GitHub Actions utilizando MySQL.
 
-[Explore implementation and limitations](https://github.com/kelwin-feitosa/assistente-financeiro#readme)
+[Explorar implementação e limitações](https://github.com/kelwin-feitosa/assistente-financeiro#readme)
 
 <details>
-<summary><strong>More public work</strong></summary>
+<summary><strong>Outros trabalhos públicos</strong></summary>
 
-- [Java loan simulator](https://github.com/kelwin-feitosa/simulador-emprestimo-java) — credit rules and financial calculations with Java SE and `BigDecimal`; database persistence is still on the roadmap.
-- [Exercism solutions](https://github.com/kelwin-feitosa/exercism) — Java exercises and deliberate practice in programming fundamentals.
+- [Simulador de empréstimo em Java](https://github.com/kelwin-feitosa/simulador-emprestimo-java) — regras de crédito e cálculos financeiros com Java SE e `BigDecimal`; persistência em banco de dados ainda prevista.
+- [Exercícios no Exercism](https://github.com/kelwin-feitosa/exercism) — exercícios de Java e prática de fundamentos de programação.
 
 </details>
 
-## How I work
+## Como desenvolvo
 
-| Area | Experience and tools |
+| Área | Experiência e ferramentas |
 | --- | --- |
-| **Backend** | Java, Spring Boot, Spring Data JPA, Hibernate, REST APIs, validation |
-| **Data** | PostgreSQL, MySQL, relational modeling, Flyway |
-| **Security & reliability** | Spring Security, JWT, transaction boundaries, exception handling |
-| **Testing & delivery** | JUnit 5, Mockito, Maven, Docker, GitHub Actions, OpenAPI |
-| **Beyond the Java stack** | Python for experimentation and automation; interest in AI integration and music-related software |
+| **Backend** | Java, Spring Boot, Spring Data JPA, Hibernate, APIs REST e validação |
+| **Dados** | PostgreSQL, MySQL, modelagem relacional e Flyway |
+| **Segurança e confiabilidade** | Spring Security, JWT, transações e tratamento de exceções |
+| **Testes e entrega** | JUnit 5, Mockito, Maven, Docker, GitHub Actions e OpenAPI |
+| **Além de Java** | Python para experimentação e automação; interesse em IA e ferramentas musicais |
 
-I value documenting architectural decisions, understanding trade-offs, and improving code through tests and refactoring.
+Valorizo a documentação de decisões arquiteturais, o entendimento dos compromissos técnicos e a evolução do código por meio de testes e refatoração.
 
-## An interdisciplinary perspective
+## Música e computação
 
-Alongside Computer Science, I trained in **transverse flute at the Escola de Música de Brasília**. Music has shaped my attention to structure, precision, and iterative practice. I'm particularly interested in software for **music notation, education, and computational music research**.
+Além da Ciência da Computação, tenho formação em **flauta transversal pela Escola de Música de Brasília**. A música influenciou meu interesse por estrutura, precisão e prática contínua. Tenho especial interesse em software para **notação musical, educação e pesquisa em computação musical**.
 
-## Let's connect
+## Vamos conversar?
 
-I'm interested in practical engineering challenges, meaningful collaboration, and early-career opportunities in backend engineering, automation, and MusicTech.
+Tenho interesse em desafios práticos de engenharia, colaboração e oportunidades de início de carreira em backend, automação e MusicTech.
 
-**[LinkedIn](https://www.linkedin.com/in/kelwinfeitosa/)** · **[Email me](mailto:kelwinfeitosa@gmail.com)** · **[Browse repositories](https://github.com/kelwin-feitosa?tab=repositories)**
+**[LinkedIn](https://www.linkedin.com/in/kelwinfeitosa/)** · **[Enviar e-mail](mailto:kelwinfeitosa@gmail.com)** · **[Explorar repositórios](https://github.com/kelwin-feitosa?tab=repositories)**
 
-<sub>This profile prioritizes project evidence over activity counters. Project status and implementation details are documented in each linked repository.</sub>
+<sub>Este perfil prioriza evidências dos projetos em vez de contadores de atividade. O estado e os detalhes técnicos de cada projeto estão documentados nos respectivos repositórios.</sub>
