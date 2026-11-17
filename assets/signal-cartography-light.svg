@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<title id="title">Kelwin Feitosa — Software, systems and music</title>
+<desc id="desc">Editorial banner with large typography, technical grid, connected nodes and a signal-wave motif. Decorative motion is optional.</desc>
+<defs>
+ <linearGradient id="base" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F5F8FC"/><stop offset="1" stop-color="#E5EDF6"/></linearGradient>
+ <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#245FAD" stop-opacity=".2"/><stop offset=".46" stop-color="#245FAD"/><stop offset="1" stop-color="#AE6237"/></linearGradient>
+ <clipPath id="round"><rect width="1200" height="320" rx="22"/></clipPath>
+</defs>
+<style>
+ @media (prefers-reduced-motion: no-preference) {
+  .trace {animation: travel 11s linear infinite}
+  .pulse {animation: breathe 6s ease-in-out infinite}
+ }
+ @keyframes travel {to {stroke-dashoffset:-1340}}
+ @keyframes breathe {0%,100% {opacity:.65} 50% {opacity:1}}
+</style>
+<g clip-path="url(#round)">
+ <rect width="1200" height="320" fill="url(#base)"/>
+ <g stroke="#9FB2C9" stroke-width=".7" opacity=".20"><path d="M40 0V320"/><path d="M98 0V320"/><path d="M156 0V320"/><path d="M214 0V320"/><path d="M272 0V320"/><path d="M330 0V320"/><path d="M388 0V320"/><path d="M446 0V320"/><path d="M504 0V320"/><path d="M562 0V320"/><path d="M620 0V320"/><path d="M678 0V320"/><path d="M736 0V320"/><path d="M794 0V320"/><path d="M852 0V320"/><path d="M910 0V320"/><path d="M968 0V320"/><path d="M1026 0V320"/><path d="M1084 0V320"/><path d="M1142 0V320"/><path d="M1200 0V320"/><path d="M0 30H1200"/><path d="M0 73H1200"/><path d="M0 116H1200"/><path d="M0 159H1200"/><path d="M0 202H1200"/><path d="M0 245H1200"/><path d="M0 288H1200"/><path d="M0 331H1200"/></g>
+ <path d="M0 270C280 248 346 298 587 261S1014 197 1200 236" fill="none" stroke="#245FAD" opacity=".10" stroke-width="38"/>
+ <path d="M0 5H1200M0 315H1200" stroke="#A1B8D0" opacity=".48"/>
+ <g fill="none" stroke="#A1B8D0" stroke-width="1" opacity=".50">
+  <path d="M640 37V282M657 37V282" stroke-dasharray="2 8"/>
+  <ellipse cx="942" cy="167" rx="242" ry="113" transform="rotate(-11 942 167)"/>
+  <ellipse cx="942" cy="167" rx="189" ry="85" transform="rotate(-11 942 167)"/>
+  <ellipse cx="942" cy="167" rx="130" ry="59" transform="rotate(-11 942 167)"/>
+  <ellipse cx="942" cy="167" rx="72" ry="32" transform="rotate(-11 942 167)"/>
+ </g>
+ <circle cx="745" cy="57" r="2" fill="#245FAD" opacity=".65"/><circle cx="1010" cy="50" r="1.4" fill="#245FAD" opacity=".27"/><circle cx="1150" cy="97" r="1.4" fill="#245FAD" opacity=".27"/><circle cx="710" cy="274" r="2" fill="#245FAD" opacity=".65"/><circle cx="1110" cy="284" r="1.4" fill="#245FAD" opacity=".27"/><circle cx="922" cy="240" r="1.4" fill="#245FAD" opacity=".27"/><circle cx="826" cy="119" r="2" fill="#245FAD" opacity=".65"/><circle cx="1183" cy="240" r="1.4" fill="#245FAD" opacity=".27"/>
+ <path d="M689 184L728 184L762 142L802 207L844 120L886 182L916 182L957 140L997 202L1038 130L1071 175H1182" fill="none" stroke="#245FAD" opacity=".38" stroke-width="10" stroke-linecap="round"/>
+ <path d="M689 184L728 184L762 142L802 207L844 120L886 182L916 182L957 140L997 202L1038 130L1071 175H1182" fill="none" stroke="url(#wave)" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+ <path class="trace" d="M689 184L728 184L762 142L802 207L844 120L886 182L916 182L957 140L997 202L1038 130L1071 175H1182" fill="none" stroke="#385775" opacity=".85" stroke-width="3" stroke-dasharray="18 1322" stroke-linecap="round"/>
+ <g fill="#F5F8FC" stroke="#245FAD" stroke-width="2.4"><circle cx="762" cy="142" r="7"/><circle cx="844" cy="120" r="7"/><circle cx="957" cy="140" r="7"/><circle cx="1038" cy="130" r="7"/></g>
+ <g fill="#AE6237" class="pulse"><circle cx="802" cy="207" r="4"/><circle cx="997" cy="202" r="4"/><circle cx="1071" cy="175" r="4"/></g>
+ <g font-family="Arial, Helvetica, sans-serif">
+  <text x="66" y="53" font-size="15" letter-spacing="3.2" fill="#245FAD" font-weight="700">KF  /  SOFTWARE ENGINEERING</text>
+  <path d="M66 72H573" stroke="#A1B8D0" stroke-width="1.4"/>
+  <text x="61" y="160" font-size="86" font-weight="800" letter-spacing="5" fill="#14263D">KELWIN</text>
+  <text x="63" y="229" font-size="59" font-weight="700" letter-spacing="10.7" fill="#14263D">FEITOSA</text>
+  <text x="67" y="272" font-size="15" letter-spacing="1.8" fill="#536B84">SOFTWARE  /  AI  /  AUTOMATION  /  MUSIC TECH</text>
+  <text x="693" y="53" font-size="12" letter-spacing="2.4" fill="#536B84">01  /  SIGNAL &amp; STRUCTURE</text>
+  <text x="690" y="276" font-size="11" letter-spacing="1.8" fill="#536B84">DESIGN   •   BUILD   •   VERIFY</text>
+  <text x="1074" y="276" font-size="11" letter-spacing="1.3" fill="#536B84">KF.01</text>
+ </g>
+ <path d="M1176 21H1190V36M1176 299H1190V284M12 36V21H26M12 284V299H26" fill="none" stroke="#245FAD" stroke-width="1.7" opacity=".7"/>
+</g></svg>

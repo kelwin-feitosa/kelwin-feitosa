@@ -125,3 +125,112 @@ The original `profile/*.svg` assets are deliberately retained for rollback. The 
 ## Language decision — updated after author feedback
 
 The main `README.md` is **Portuguese** to serve local recruiters and represent the author's preferred presentation language. A complete English counterpart is available at [`README.en.md`](../README.en.md) and linked near the introduction. The English language remains fully supported without being the default. This supersedes the earlier English-first proposal in the original mission.
+
+
+---
+
+## Mission 2.0 — Signal Cartography (17 November 2026)
+
+**Scope:** visual evolution of the public profile README only. All repository visibility and account-level settings remain unchanged. This section supersedes the earlier *static-only* aesthetic preference, while retaining the text-first, evidence-based principles.
+
+### Decision: editorial minimalism vs. visual signal cartography
+
+| Alternative | Strength | Cost | Decision |
+| --- | --- | --- | --- |
+| Restrained editorial minimalism (previous baseline) | Low visual noise, predictable rendering, small assets | Limited memorability | Keep content architecture |
+| Signal cartography (selected) | Distinctive identity linking geometry, systems and musical rhythm; bespoke project diagrams | Six local assets and minor CSS motion compatibility risk | **Adopt** |
+
+The result uses an editorial masthead and two project-specific vector schematics. Headings, links, project evidence and limitations remain in ordinary Markdown outside all images.
+
+### Implementation overview
+
+- `assets/signal-cartography-{dark,light}.svg`: a custom 1200 × 320 editorial banner using a geometric grid, a stylized waveform/network motif and accessible color variants.
+- `assets/case-systems-{dark,light}.svg`: visual abstraction of domain-oriented modules.
+- `assets/case-ai-{dark,light}.svg`: visual abstraction of the voice → AI → tool calling → service boundary.
+- `README.md` and `README.en.md`: parallel content, project-level evidence, clear scope limitations and links to verifiable public repositories.
+- Existing decorative output, legacy SVGs and disabled scheduled workflows remain untouched for rollback; no external profile widgets added.
+
+SVG motion is intentionally **nonessential**. Two CSS effects are scoped to `prefers-reduced-motion: no-preference`; the base paths remain visible without CSS. Rendering of those animations through GitHub's image handling **has not been visually verified**. The fallback is the complete static artwork, not an empty frame.
+
+### Public project selection
+
+The two current project showcases remain `supermarket-management-api` and `assistente-financeiro`, with explicit development scope and bootcamp attribution. Secondary public items are `simulador-emprestimo-java`, `UDF-Projetos` and `exercism`. Archived and forked repositories are intentionally not featured as original flagship products.
+
+**Initial 2.0 scope (superseded for project-name disclosure by Mission 2.1 below):** private repositories were assessed only for portfolio potential, without identifying private projects in the README at that point. No repository was made public, and no team-owned code or account pins were modified.
+
+Future publication requires an explicit authorization step and a separate assessment of credentials, historical commits, third-party copyrights, personal data, licenses and team ownership. A single clean current working tree is not sufficient evidence of safe historical publication.
+
+### Research and tooling decision
+
+References consulted:
+
+- [GitHub Docs — Profile README](https://docs.github.com/en/account-and-profile/concepts/personal-profile)
+- [GitHub Docs — Theme-specific images](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github)
+- [GitHub Docs — Pinning items](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/pinning-items-to-your-profile)
+- [Anthropic frontend-design guidance](https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md)
+- [UI/UX Pro Max skill guidance](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
+- [Vercel web-design-guidelines skill](https://github.com/vercel-labs/agent-skills/blob/main/skills/web-design-guidelines/SKILL.md)
+- [SVG animation cookbook (community reference)](https://github.com/WaterTian/svg-motion-cookbook)
+
+The three design skills were **consulted as research**, not installed or executed. In particular, browser UI and React-specific patterns were not copied into a GitHub README. No npm packages, external font servers or new GitHub Action dependencies were needed. This reduces supply-chain exposure and maintenance overhead.
+
+### Validation evidence and limitations
+
+On the branch:
+
+- Both language READMEs were fetched back after writing; each contains three matching theme-aware images, a reachable local image path for all six SVG variants, and explicit project links.
+- All six SVGs were fetched back; lightweight tag-nesting and entity checks found no mismatches. A denylist check found no scripts, event handlers or external image references.
+- Text foreground/background ratios calculated from declared design tokens were: **16.71:1** (dark main), **14.34:1** (light main), **9.14:1** (dark muted) and **5.18:1** (light muted). These are token-level checks, not a pixel-accurate accessibility audit.
+- **Initial 2.0 check (superseded in Mission 2.1 below):** neither profile README named the then-private experiments. The explicitly excluded project remains absent from both language versions.
+- No build pipeline or hosted animation has been benchmarked. Actual GitHub-rendered appearance, keyboard/screen-reader behavior and animation through the image proxy **still require browser inspection**.
+- No claim of a recruiter usability test or hiring impact has been made.
+
+### Manual account-level follow-up
+
+Review the new profile visually in both GitHub themes and on mobile **before merging**. For pinned projects, prioritize the two documented public showcase repositories; other candidates should be chosen only after inspecting their maturity. Pinned items, profile bio and private repository visibility remain account-level decisions outside this PR.
+
+If visual motion does not survive GitHub's image handling, retain the static SVGs or choose a separately reviewed GIF asset without compromising reduced-motion needs.
+
+
+---
+
+## Mission 2.1 — Portfolio positioning: software, AI, automation and transparent authorship (17 November 2026)
+
+### Requirement update from the author
+
+The author clarified that **FluteOMR**, **Kelwin Hub** and **Aurora** were primarily experiments to test their skills working with AI in software development and automation. Their implementations were produced with substantial model assistance, rather than serving as evidence of manual authorship of every function or exhaustive hands-on validation.
+
+This explicitly supersedes the earlier preference not to name private projects in the profile README. Mentioning their names and conceptual scope is now authorized **for the profile narrative only**. It does **not** authorize making source repositories public, exposing private files, adding inaccessible GitHub repository links, or changing pinned repositories.
+
+### New content architecture
+
+1. Lead with **software development · AI-assisted engineering · automation · MusicTech**, without claiming advanced professional seniority.
+2. Preserve the two publicly inspectable engineering showcases as the highest-priority code links.
+3. Add a dedicated **AI development experiments** section: three short, real, distinct experiment narratives.
+4. Distinguish model-generated implementation from requirements, guidance, experimentation and actual manual validation; avoid false attribution of manual code authorship.
+5. Mark all three source repositories as **currently private** and do not link to pages inaccessible to visitors.
+6. Distinguish programmatic checks from personal/real-world homologation. Treat unfinished prototypes as legitimate research showcases, not as commercial releases.
+7. Retain the flute background to explain the MusicTech research direction.
+8. Maintain PT-BR and English semantic parity and working local light/dark image paths.
+
+### Experiment status checked against repository READMEs
+
+| Experiment | Framing | Reported implementation scope | Unresolved validation |
+| --- | --- | --- | --- |
+| FluteOMR | AI-assisted research in optical music recognition | Python image geometry and controlled MusicXML export experiments | Reliable general transcription and independent human validation remain incomplete |
+| Kelwin Hub | AI-assisted local-first application and automation experiment | FastAPI/SQLite modules for tasks, contacts, projects, alerts, backup | No personally homologated general release, no production third-party messaging |
+| Aurora | AI-assisted academic email/calendar workflow prototype | TypeScript, installable PWA, provider integration code, simulated tests | Real OAuth, hosting and push delivery still require end-to-end validation |
+
+README text avoids misleading clickable links to private repositories. The three project names are included solely as **descriptions of the user's own experiments**. The explicitly excluded project remains absent from public-facing materials.
+
+### Visual adjustments
+
+- Both existing hero SVGs now explicitly reference **AI** and **automation** in the editorial tagline.
+- A theme-aware, version-controlled **conceptual workflow schematic** (`assets/case-ai-lab-{dark,light}.svg`) presents the experiment loop, without claiming that every phase has already received personal human validation.
+- No external widget, npm dependency, hosted image service, GitHub Action, or new deployment process was introduced.
+
+### Validation boundary
+
+The verification performed during this mission must not be described as equivalent to executing full source-project tests, auditing all old Git histories, viewing the GitHub-rendered interface in an actual browser, or approving a change of repository visibility. Publication of the three private repositories is a **separate** operation with its own security and licensing decision.
+
+Profile updates remain on the same draft PR; `main` and private repository visibility remain unchanged.
