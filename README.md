@@ -6,17 +6,21 @@
 
 # Kelwin Feitosa
 
-**Backend com Java e Spring Boot · Python e automação · Engenharia de software e computação musical**
+**Desenvolvimento de software · IA aplicada à engenharia · Automações · MusicTech**
 
-Desenvolvo **APIs e ferramentas práticas** com atenção à modelagem de domínio, regras testáveis, integração entre sistemas e manutenção do código. Também exploro a relação entre software, inteligência artificial e notação musical.
+Trabalho com **desenvolvimento de software, inteligência artificial e automações**. Nos projetos de engenharia, estudo APIs, modelagem e qualidade; em experimentos pessoais, exploro como agentes de IA podem transformar requisitos em implementações, e quais são os limites dessa abordagem.
+
+Combino **Java e Spring Boot**, **Python** e interesse em computação musical. Distingo código publicamente verificável, protótipos conduzidos com IA e funcionalidades ainda não homologadas.
 
 **Brasília, Brasil** · Ciência da Computação na **UDF** (conclusão prevista para dez/2027) · Interesse em **estágios, vagas júnior e colaboração remota**, inclusive internacional.
 
-[**Projetos selecionados**](#projetos-em-destaque) · [LinkedIn](https://www.linkedin.com/in/kelwinfeitosa/) · [E-mail](mailto:kelwinfeitosa@gmail.com) · [**Read in English**](./README.en.md)
+[**Código público**](#projetos-em-destaque) · [**Experimentos com IA**](#experimentos-com-ia) · [LinkedIn](https://www.linkedin.com/in/kelwinfeitosa/) · [E-mail](mailto:kelwinfeitosa@gmail.com) · [**Read in English**](./README.en.md)
 
 ---
 
 ## Projetos em destaque
+
+**Código público:** os repositórios abaixo permitem examinar implementações, arquitetura, documentação e testes diretamente.
 
 ### 01 · [Supermarket Management API](https://github.com/kelwin-feitosa/supermarket-management-api)
 
@@ -63,6 +67,44 @@ API de transações financeiras com solicitações em linguagem natural, desenvo
 
 </details>
 
+## Experimentos com IA
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/case-ai-lab-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/case-ai-lab-light.svg">
+  <img src="./assets/case-ai-lab-light.svg" alt="Ilustração de um ciclo conceitual de experimentação com IA: problema, especificação, geração, revisão e aprendizagem." width="100%">
+</picture>
+
+Estes três projetos são **experimentos pessoais de desenvolvimento fortemente assistido por IA**: usei modelos para gerar e evoluir grande parte das implementações, enquanto explorava definição de requisitos, direcionamento das iterações e avaliação dos resultados. Meu objetivo foi testar o **processo de trabalhar com IA no desenvolvimento**, não demonstrar autoria manual de cada módulo.
+
+A existência de testes automatizados não significa que todos os fluxos tenham sido validados por mim em uso real. **Os códigos ainda estão em repositórios privados**, sujeitos a revisão antes de eventual publicação.
+
+### 03 · FluteOMR — computação musical
+
+**Python · processamento de imagens · MusicXML · protótipo experimental**
+
+- **Experimento:** orientar a evolução de um reconhecedor óptico de partituras com regras musicais, corpus e avaliação técnica.
+- **Estado documentado:** detecção de pautas, componentes de reconhecimento controlado, exportação MusicXML experimental e verificações automatizadas.
+- **Limite:** ainda não reconhece partituras completas com precisão musical geral comprovada; referências reais e revisão humana continuam limitadas.
+
+### 04 · Kelwin Hub — produtividade e automações locais
+
+**Python · FastAPI · SQLite · interface web · piloto local**
+
+- **Experimento:** investigar o desenvolvimento assistido por IA de um produto com vários módulos e critérios de privacidade e manutenção.
+- **Estado documentado:** projetos, tarefas, contatos, oportunidades, agenda, alertas locais, autenticação e backup criptografado.
+- **Limite:** não é produto homologado; integrações externas e envio automático de mensagens não fazem parte do escopo validado.
+
+### 05 · Aurora — integração e automação acadêmica
+
+**TypeScript · PWA · Gmail/Outlook · protótipo pré-homologação**
+
+- **Experimento:** projetar com auxílio de IA um fluxo de identificação de compromissos em e-mails, com revisão humana e políticas de privacidade.
+- **Estado documentado:** integração por provedores em código, sincronização e notificações previstas nos fluxos, interface instalável e testes com serviços simulados.
+- **Limite:** OAuth com contas reais, implantação e entrega de notificações ainda exigem homologação; não é confiável como única fonte de prazos.
+
+**Critério para divulgar código:** segurança, direitos de terceiros e descrição honesta do estágio — não a conclusão de todas as funcionalidades.
+
 ## Engenharia na prática
 
 | Área | Tecnologias e práticas presentes nos projetos |
@@ -71,18 +113,19 @@ API de transações financeiras com solicitações em linguagem natural, desenvo
 | **Dados** | PostgreSQL, MySQL, modelagem relacional e Flyway |
 | **Confiabilidade e segurança** | Spring Security, JWT, transações, tratamento de erros e revisão de limites |
 | **Testes e entrega** | JUnit 5, Mockito, Maven, Docker, GitHub Actions e OpenAPI |
-| **Exploração interdisciplinar** | Python, automação, integração com IA e software voltado à música |
+| **IA no desenvolvimento** | Especificação, iteração com agentes, análise crítica das saídas e experimentação assistida |
+| **Automações e MusicTech** | Python, fluxos locais, integração experimental, MusicXML e ferramentas musicais |
 
-Procuro entender **por que** uma decisão técnica funciona: documentar compromissos, testar regras de negócio e evoluir sistemas sem perder legibilidade.
+Procuro entender **por que** uma decisão técnica funciona. Em desenvolvimento com IA, isso também significa revisar saídas dos agentes, reconhecer o que não foi testado e separar evidências de hipóteses — em vez de tratar código gerado como automaticamente correto.
 
 ## Música e computação
 
-Sou formado em **flauta transversal pela Escola de Música de Brasília**. A prática musical motivou meu interesse em ferramentas para partituras, **MusicXML**, reconhecimento óptico de notação e educação musical — uma área em que posso aproximar experiência como músico e desenvolvimento de software.
+Sou formado em **flauta transversal pela Escola de Música de Brasília**. Essa experiência orienta as perguntas que exploro em computação musical: leitura de partituras, **MusicXML**, reconhecimento óptico e educação musical. O **FluteOMR** é um experimento nessa interseção.
 
 ## Contato
 
-Tenho interesse em contribuir com equipes de backend, automação e MusicTech em oportunidades de início de carreira.
+Tenho interesse em colaborar com equipes de **desenvolvimento, IA aplicada, automação, backend e MusicTech**, em oportunidades de início de carreira.
 
 **[LinkedIn](https://www.linkedin.com/in/kelwinfeitosa/)** · **[E-mail](mailto:kelwinfeitosa@gmail.com)** · **[Todos os repositórios públicos](https://github.com/kelwin-feitosa?tab=repositories)**
 
-<sub>Projetos apresentados com seu estado atual e limitações documentadas. O conteúdo essencial permanece legível sem imagens ou animações.</sub>
+<sub>Projetos públicos e experimentos assistidos por IA são identificados separadamente. Nenhum experimento privado é apresentado como software homologado. O conteúdo essencial permanece acessível sem imagens ou animações.</sub>
