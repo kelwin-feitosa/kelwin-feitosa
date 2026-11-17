@@ -77,9 +77,9 @@ An AI-assisted transaction API built as the capstone for the **Itaú / DIO Java 
 
 These three projects are **personal experiments in heavily AI-assisted software development**. I used AI models to generate and evolve much of the implementation while exploring requirements, iteration management, and assessment of the results. The goal was to learn about **AI as a development workflow**, not to claim that I manually wrote every module.
 
-Automated tests do not mean I have personally validated every workflow in real-world use. **The source repositories are currently private**, pending review before any possible publication.
+Automated tests do not mean I have personally validated every workflow in real-world use. **All three repositories are public** so visitors can inspect the code, documentation, and known limitations; this does not mean the systems are validated for real-world use.
 
-### 03 · FluteOMR — music computing
+### 03 · [FluteOMR](https://github.com/kelwin-feitosa/FluteOMR) — music computing
 
 **Python · image processing · MusicXML · experimental prototype**
 
@@ -87,7 +87,7 @@ Automated tests do not mean I have personally validated every workflow in real-w
 - **Documented scope:** staff detection, controlled recognition components, experimental MusicXML export, and automated checks.
 - **Limit:** reliable end-to-end transcription has not been demonstrated; independent musical references and human review remain limited.
 
-### 04 · Kelwin Hub — local productivity and automation
+### 04 · [Kelwin Hub](https://github.com/kelwin-feitosa/kelwin-hub) — local productivity and automation
 
 **Python · FastAPI · SQLite · web interface · local pilot**
 
@@ -95,7 +95,7 @@ Automated tests do not mean I have personally validated every workflow in real-w
 - **Documented scope:** projects, tasks, contacts, opportunities, calendar, local alerts, authentication, and encrypted backups.
 - **Limit:** not a validated production release; external integrations and automated third-party messaging are not part of the validated scope.
 
-### 05 · Aurora — academic automation and integrations
+### 05 · [Aurora](https://github.com/kelwin-feitosa/Aurora) — academic automation and integrations
 
 **TypeScript · PWA · Gmail/Outlook · pre-validation prototype**
 
@@ -103,7 +103,7 @@ Automated tests do not mean I have personally validated every workflow in real-w
 - **Documented scope:** provider integration code, synchronization and notification flows, an installable interface, and simulated-provider tests.
 - **Limit:** real-account OAuth, deployment, and notification delivery still require validation; not a dependable sole source for deadlines.
 
-**Publication threshold:** security, third-party rights, and an accurate development-status statement — not completion of every feature.
+**Publishing code is not a product release:** these experiments remain in development and should be evaluated in light of their documented limitations.
 
 ## Engineering approach
 
@@ -128,4 +128,4 @@ I'm interested in early-career opportunities involving **software development, a
 
 **[LinkedIn](https://www.linkedin.com/in/kelwinfeitosa/)** · **[Email](mailto:kelwinfeitosa@gmail.com)** · **[Browse public repositories](https://github.com/kelwin-feitosa?tab=repositories)**
 
-<sub>Public projects and AI-assisted experiments are clearly distinguished. Private experiments are not presented as production-ready software. Essential content remains readable without images or motion.</sub>
+<sub>Engineering projects and AI-assisted experiments are clearly distinguished. No prototype is presented as production-ready software. Essential content remains readable without images or motion.</sub>
