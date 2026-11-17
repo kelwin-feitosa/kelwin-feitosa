@@ -77,9 +77,9 @@ API de transações financeiras com solicitações em linguagem natural, desenvo
 
 Estes três projetos são **experimentos pessoais de desenvolvimento fortemente assistido por IA**: usei modelos para gerar e evoluir grande parte das implementações, enquanto explorava definição de requisitos, direcionamento das iterações e avaliação dos resultados. Meu objetivo foi testar o **processo de trabalhar com IA no desenvolvimento**, não demonstrar autoria manual de cada módulo.
 
-A existência de testes automatizados não significa que todos os fluxos tenham sido validados por mim em uso real. **Os códigos ainda estão em repositórios privados**, sujeitos a revisão antes de eventual publicação.
+A existência de testes automatizados não significa que todos os fluxos tenham sido validados por mim em uso real. **Os três repositórios são públicos** para consulta ao código, à documentação e às limitações conhecidas; isso não significa que os sistemas estejam homologados para uso real.
 
-### 03 · FluteOMR — computação musical
+### 03 · [FluteOMR](https://github.com/kelwin-feitosa/FluteOMR) — computação musical
 
 **Python · processamento de imagens · MusicXML · protótipo experimental**
 
@@ -87,7 +87,7 @@ A existência de testes automatizados não significa que todos os fluxos tenham 
 - **Estado documentado:** detecção de pautas, componentes de reconhecimento controlado, exportação MusicXML experimental e verificações automatizadas.
 - **Limite:** ainda não reconhece partituras completas com precisão musical geral comprovada; referências reais e revisão humana continuam limitadas.
 
-### 04 · Kelwin Hub — produtividade e automações locais
+### 04 · [Kelwin Hub](https://github.com/kelwin-feitosa/kelwin-hub) — produtividade e automações locais
 
 **Python · FastAPI · SQLite · interface web · piloto local**
 
@@ -95,7 +95,7 @@ A existência de testes automatizados não significa que todos os fluxos tenham 
 - **Estado documentado:** projetos, tarefas, contatos, oportunidades, agenda, alertas locais, autenticação e backup criptografado.
 - **Limite:** não é produto homologado; integrações externas e envio automático de mensagens não fazem parte do escopo validado.
 
-### 05 · Aurora — integração e automação acadêmica
+### 05 · [Aurora](https://github.com/kelwin-feitosa/Aurora) — integração e automação acadêmica
 
 **TypeScript · PWA · Gmail/Outlook · protótipo pré-homologação**
 
@@ -103,7 +103,7 @@ A existência de testes automatizados não significa que todos os fluxos tenham 
 - **Estado documentado:** integração por provedores em código, sincronização e notificações previstas nos fluxos, interface instalável e testes com serviços simulados.
 - **Limite:** OAuth com contas reais, implantação e entrega de notificações ainda exigem homologação; não é confiável como única fonte de prazos.
 
-**Critério para divulgar código:** segurança, direitos de terceiros e descrição honesta do estágio — não a conclusão de todas as funcionalidades.
+**Publicar o código não equivale a lançar um produto:** estes experimentos permanecem em desenvolvimento e devem ser avaliados de acordo com suas limitações documentadas.
 
 ## Engenharia na prática
 
@@ -128,4 +128,4 @@ Tenho interesse em colaborar com equipes de **desenvolvimento, IA aplicada, auto
 
 **[LinkedIn](https://www.linkedin.com/in/kelwinfeitosa/)** · **[E-mail](mailto:kelwinfeitosa@gmail.com)** · **[Todos os repositórios públicos](https://github.com/kelwin-feitosa?tab=repositories)**
 
-<sub>Projetos públicos e experimentos assistidos por IA são identificados separadamente. Nenhum experimento privado é apresentado como software homologado. O conteúdo essencial permanece acessível sem imagens ou animações.</sub>
+<sub>Projetos de engenharia e experimentos assistidos por IA são identificados separadamente. Nenhum protótipo é apresentado como software homologado. O conteúdo essencial permanece acessível sem imagens ou animações.</sub>
