@@ -1,75 +1,88 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/engineering-signal-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/engineering-signal-light.svg">
-  <img src="./assets/engineering-signal-light.svg" alt="Abstract engineering signal: a flowing line crossing a geometric grid, suggesting precision and rhythm." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/signal-cartography-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/signal-cartography-light.svg">
+  <img src="./assets/signal-cartography-light.svg" alt="Vector banner with my name, a technical grid and signal lines inspired by engineering and music." width="100%">
 </picture>
 
 # Kelwin Feitosa
 
-**Backend development · Java & Spring Boot · Python & automation**
+**Java & Spring Boot backend · Python & automation · Software engineering & music technology**
 
-I build backend systems and practical tools, with an emphasis on **clear domain models, testable business logic, reliable APIs, and maintainable code**. I'm also interested in the intersection of software, AI, and music technology.
+I build **APIs and practical tools** with an emphasis on domain modeling, testable business rules, system integration, and maintainable code. I'm also interested in the intersection of software, artificial intelligence, and music notation.
 
-**Brasília, Brazil** · Computer Science undergraduate at UDF (expected graduation: December 2027) · Interested in **internships and junior software engineering opportunities**, including remote international teams.
+**Brasília, Brazil** · Computer Science undergraduate at **UDF** (expected graduation: Dec 2027) · Interested in **internships, junior roles, and remote collaboration**, including international opportunities.
 
-[Selected work](#selected-work) · [LinkedIn](https://www.linkedin.com/in/kelwinfeitosa/) · [Email](mailto:kelwinfeitosa@gmail.com) · [Português](./README.md)
+[**Selected projects**](#selected-work) · [LinkedIn](https://www.linkedin.com/in/kelwinfeitosa/) · [Email](mailto:kelwinfeitosa@gmail.com) · [**Português**](./README.md)
 
 ---
 
 ## Selected work
 
-### 01 / [Supermarket Management API](https://github.com/kelwin-feitosa/supermarket-management-api)
+### 01 · [Supermarket Management API](https://github.com/kelwin-feitosa/supermarket-management-api)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/case-systems-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/case-systems-light.svg">
+  <img src="./assets/case-systems-light.svg" alt="Decorative diagram of catalog, inventory and sales modules." width="100%">
+</picture>
 
 **Java 21 · Spring Boot 4 · PostgreSQL · Spring Security · Docker**
 
-A modular REST backend for supermarket operations: product catalog, suppliers, inventory, procurement, shopping carts, sales, and user management.
+A REST API for supermarket operations, including catalog, suppliers, inventory, purchasing, shopping carts, and sales.
 
-- **Engineering focus:** feature-oriented modular monolith, validation, transactional business operations, JWT-based security, filtering and pagination.
-- **Quality practices:** automated tests with JUnit/Mockito, API documentation, database tooling and GitHub Actions CI.
-- **Stage:** actively evolving backend; the planned frontend and point-of-sale interface are not yet implemented.
+- **Engineering:** domain-oriented modular monolith, validation, transactional operations, JWT authentication, filtering, and pagination.
+- **Evidence:** automated tests with JUnit and Mockito, API documentation, and continuous integration with GitHub Actions.
+- **Current scope:** backend under active development; the admin interface and point-of-sale frontend remain planned.
 
-[Explore architecture, setup and tests](https://github.com/kelwin-feitosa/supermarket-management-api#readme)
+[**Explore the code, architecture, and tests**](https://github.com/kelwin-feitosa/supermarket-management-api#readme)
 
-### 02 / [AI Finance Assistant](https://github.com/kelwin-feitosa/assistente-financeiro)
+### 02 · [AI Finance Assistant](https://github.com/kelwin-feitosa/assistente-financeiro)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/case-ai-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/case-ai-light.svg">
+  <img src="./assets/case-ai-light.svg" alt="Decorative diagram linking voice, AI, tools, and domain services." width="100%">
+</picture>
 
 **Java 21 · Spring Boot · Spring AI · MySQL · Gemini**
 
-An AI-assisted transaction API developed as a capstone project for the **Itaú / DIO Java + AI bootcamp**.
+An AI-assisted transaction API built as the capstone for the **Itaú / DIO Java + AI bootcamp**.
 
-- **Engineering focus:** natural-language requests mapped to explicit application operations through tool calling, with domain services kept separate from the AI integration.
-- **Additional interface:** a local speech pipeline using Whisper.cpp for transcription and Piper for speech synthesis.
-- **Quality practices:** JUnit/Mockito tests and a GitHub Actions workflow backed by MySQL for CI.
+- **Engineering:** tool calling delegates operations to application services, keeping AI integration separate from business rules.
+- **Features:** creating and querying transactions, local transcription with Whisper.cpp, and speech synthesis with Piper.
+- **Evidence:** JUnit/Mockito tests and a MySQL-backed CI pipeline. Natural-language interpretation relies on an external service.
 
-[Explore implementation and limitations](https://github.com/kelwin-feitosa/assistente-financeiro#readme)
+[**Explore implementation and limitations**](https://github.com/kelwin-feitosa/assistente-financeiro#readme)
 
 <details>
-<summary><strong>More public work</strong></summary>
+<summary><strong>More public work and fundamentals</strong></summary>
 
-- [Java loan simulator](https://github.com/kelwin-feitosa/simulador-emprestimo-java) — credit rules and financial calculations with Java SE and `BigDecimal`; database persistence is still on the roadmap.
-- [Exercism solutions](https://github.com/kelwin-feitosa/exercism) — Java exercises and deliberate practice in programming fundamentals.
+- [**Java loan simulator**](https://github.com/kelwin-feitosa/simulador-emprestimo-java) — credit-assessment rules, object-oriented design, and financial calculations using `BigDecimal`; PostgreSQL persistence is still planned.
+- [**UDF academic projects**](https://github.com/kelwin-feitosa/UDF-Projetos) — mobile development exercises, interface prototyping, and graph-theory fundamentals.
+- [**Exercism**](https://github.com/kelwin-feitosa/exercism) — Java fundamentals and deliberate coding practice.
 
 </details>
 
-## How I work
+## Engineering approach
 
-| Area | Experience and tools |
+| Area | Tools and practices demonstrated in projects |
 | --- | --- |
-| **Backend** | Java, Spring Boot, Spring Data JPA, Hibernate, REST APIs, validation |
+| **Backend and domain** | Java, Spring Boot, REST APIs, Spring Data JPA, Hibernate, validation |
 | **Data** | PostgreSQL, MySQL, relational modeling, Flyway |
-| **Security & reliability** | Spring Security, JWT, transaction boundaries, exception handling |
-| **Testing & delivery** | JUnit 5, Mockito, Maven, Docker, GitHub Actions, OpenAPI |
-| **Beyond the Java stack** | Python for experimentation and automation; interest in AI integration and music-related software |
+| **Reliability and security** | Spring Security, JWT, transactions, error handling, reviewing design constraints |
+| **Testing and delivery** | JUnit 5, Mockito, Maven, Docker, GitHub Actions, OpenAPI |
+| **Interdisciplinary exploration** | Python, automation, AI integration, music-related software |
 
-I value documenting architectural decisions, understanding trade-offs, and improving code through tests and refactoring.
+I care about **why** an engineering decision works: documenting trade-offs, testing business rules, and evolving systems without sacrificing clarity.
 
-## An interdisciplinary perspective
+## Music and computing
 
-Alongside Computer Science, I trained in **transverse flute at the Escola de Música de Brasília**. Music has shaped my attention to structure, precision, and iterative practice. I'm particularly interested in software for **music notation, education, and computational music research**.
+I completed formal training in **concert flute at the Escola de Música de Brasília**. My musical background led to an interest in score-processing tools, **MusicXML**, optical recognition of music notation, and music education — an area where musicianship and software development can reinforce each other.
 
-## Let's connect
+## Get in touch
 
-I'm interested in practical engineering challenges, meaningful collaboration, and early-career opportunities in backend engineering, automation, and MusicTech.
+I'm interested in contributing to backend, automation, and MusicTech teams in early-career roles.
 
-**[LinkedIn](https://www.linkedin.com/in/kelwinfeitosa/)** · **[Email me](mailto:kelwinfeitosa@gmail.com)** · **[Browse repositories](https://github.com/kelwin-feitosa?tab=repositories)**
+**[LinkedIn](https://www.linkedin.com/in/kelwinfeitosa/)** · **[Email](mailto:kelwinfeitosa@gmail.com)** · **[Browse public repositories](https://github.com/kelwin-feitosa?tab=repositories)**
 
-<sub>This profile prioritizes project evidence over activity counters. Project status and implementation details are documented in each linked repository.</sub>
+<sub>Projects are described with their current scope and documented limitations. Essential content remains readable without images or motion.</sub>
