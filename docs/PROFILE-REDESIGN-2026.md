@@ -125,3 +125,68 @@ The original `profile/*.svg` assets are deliberately retained for rollback. The 
 ## Language decision — updated after author feedback
 
 The main `README.md` is **Portuguese** to serve local recruiters and represent the author's preferred presentation language. A complete English counterpart is available at [`README.en.md`](../README.en.md) and linked near the introduction. The English language remains fully supported without being the default. This supersedes the earlier English-first proposal in the original mission.
+
+
+---
+
+## Mission 2.0 — Signal Cartography (17 November 2026)
+
+**Scope:** visual evolution of the public profile README only. All repository visibility and account-level settings remain unchanged. This section supersedes the earlier *static-only* aesthetic preference, while retaining the text-first, evidence-based principles.
+
+### Decision: editorial minimalism vs. visual signal cartography
+
+| Alternative | Strength | Cost | Decision |
+| --- | --- | --- | --- |
+| Restrained editorial minimalism (previous baseline) | Low visual noise, predictable rendering, small assets | Limited memorability | Keep content architecture |
+| Signal cartography (selected) | Distinctive identity linking geometry, systems and musical rhythm; bespoke project diagrams | Six local assets and minor CSS motion compatibility risk | **Adopt** |
+
+The result uses an editorial masthead and two project-specific vector schematics. Headings, links, project evidence and limitations remain in ordinary Markdown outside all images.
+
+### Implementation overview
+
+- `assets/signal-cartography-{dark,light}.svg`: a custom 1200 × 320 editorial banner using a geometric grid, a stylized waveform/network motif and accessible color variants.
+- `assets/case-systems-{dark,light}.svg`: visual abstraction of domain-oriented modules.
+- `assets/case-ai-{dark,light}.svg`: visual abstraction of the voice → AI → tool calling → service boundary.
+- `README.md` and `README.en.md`: parallel content, project-level evidence, clear scope limitations and links to verifiable public repositories.
+- Existing decorative output, legacy SVGs and disabled scheduled workflows remain untouched for rollback; no external profile widgets added.
+
+SVG motion is intentionally **nonessential**. Two CSS effects are scoped to `prefers-reduced-motion: no-preference`; the base paths remain visible without CSS. Rendering of those animations through GitHub's image handling **has not been visually verified**. The fallback is the complete static artwork, not an empty frame.
+
+### Public project selection
+
+The two current project showcases remain `supermarket-management-api` and `assistente-financeiro`, with explicit development scope and bootcamp attribution. Secondary public items are `simulador-emprestimo-java`, `UDF-Projetos` and `exercism`. Archived and forked repositories are intentionally not featured as original flagship products.
+
+Private code was reviewed only to assess potential future portfolio value; **no private project links or unpublished names are included** in public README content. No repository was made public, and no organization/team-owned code or account pins were modified.
+
+Future publication requires an explicit authorization step and a separate assessment of credentials, historical commits, third-party copyrights, personal data, licenses and team ownership. A single clean current working tree is not sufficient evidence of safe historical publication.
+
+### Research and tooling decision
+
+References consulted:
+
+- [GitHub Docs — Profile README](https://docs.github.com/en/account-and-profile/concepts/personal-profile)
+- [GitHub Docs — Theme-specific images](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github)
+- [GitHub Docs — Pinning items](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/pinning-items-to-your-profile)
+- [Anthropic frontend-design guidance](https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md)
+- [UI/UX Pro Max skill guidance](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
+- [Vercel web-design-guidelines skill](https://github.com/vercel-labs/agent-skills/blob/main/skills/web-design-guidelines/SKILL.md)
+- [SVG animation cookbook (community reference)](https://github.com/WaterTian/svg-motion-cookbook)
+
+The three design skills were **consulted as research**, not installed or executed. In particular, browser UI and React-specific patterns were not copied into a GitHub README. No npm packages, external font servers or new GitHub Action dependencies were needed. This reduces supply-chain exposure and maintenance overhead.
+
+### Validation evidence and limitations
+
+On the branch:
+
+- Both language READMEs were fetched back after writing; each contains three matching theme-aware images, a reachable local image path for all six SVG variants, and explicit project links.
+- All six SVGs were fetched back; lightweight tag-nesting and entity checks found no mismatches. A denylist check found no scripts, event handlers or external image references.
+- Text foreground/background ratios calculated from declared design tokens were: **16.71:1** (dark main), **14.34:1** (light main), **9.14:1** (dark muted) and **5.18:1** (light muted). These are token-level checks, not a pixel-accurate accessibility audit.
+- Neither profile README mentions private project names or the explicitly excluded project.
+- No build pipeline or hosted animation has been benchmarked. Actual GitHub-rendered appearance, keyboard/screen-reader behavior and animation through the image proxy **still require browser inspection**.
+- No claim of a recruiter usability test or hiring impact has been made.
+
+### Manual account-level follow-up
+
+Review the new profile visually in both GitHub themes and on mobile **before merging**. For pinned projects, prioritize the two documented public showcase repositories; other candidates should be chosen only after inspecting their maturity. Pinned items, profile bio and private repository visibility remain account-level decisions outside this PR.
+
+If visual motion does not survive GitHub's image handling, retain the static SVGs or choose a separately reviewed GIF asset without compromising reduced-motion needs.
